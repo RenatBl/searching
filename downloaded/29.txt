@@ -1,0 +1,93 @@
+<!doctype html><!-- NewPage -->
+<html lang="en"> 
+ <head> 
+  <title>org.jsoup.helper Class Hierarchy (jsoup Java HTML Parser 1.14.3 API)</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="dc.created" content="2021-10-01"> 
+  <meta name="description" content="tree: package: org.jsoup.helper"> 
+  <meta name="generator" content="javadoc/PackageTreeWriter"> 
+  <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ </head> 
+ <body class="package-tree-page"> 
+  <div class="flex-box"> 
+   <header role="banner" class="flex-header"> 
+    <nav role="navigation"> <!-- ========= START OF TOP NAVBAR ======= --> 
+     <div class="top-nav" id="navbar.top"> 
+      <div class="skip-nav"> <a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a> 
+      </div> 
+      <ul id="navbar.top.firstrow" class="nav-list" title="Navigation"> 
+       <li class="home"><a href="//jsoup.org/" title="jsoup, the HTML parser for Java">jsoup</a></li> 
+       <li><a href="../../../index.html">Overview</a></li> 
+       <li><a href="package-summary.html">Package</a></li> 
+       <li>Class</li> 
+       <li>Use</li> 
+       <li class="nav-bar-cell1-rev">Tree</li> 
+       <li><a href="../../../deprecated-list.html">Deprecated</a></li> 
+       <li><a href="../../../index-all.html">Index</a></li> 
+       <li><a href="../../../help-doc.html">Help</a></li> 
+      </ul> 
+     </div> <!-- ========= END OF TOP NAVBAR ========= --> <span class="skip-nav" id="skip.navbar.top"> <!--   --> </span> 
+    </nav> 
+   </header> 
+   <div class="flex-content"> 
+    <main role="main"> 
+     <div class="header"> 
+      <h1 class="title">Hierarchy For Package org.jsoup.helper</h1> <span class="package-hierarchy-label">Package Hierarchies:</span> 
+      <ul class="horizontal"> 
+       <li><a href="../../../overview-tree.html">All Packages</a></li> 
+      </ul> 
+     </div> 
+     <section class="hierarchy"> 
+      <h2 title="Class Hierarchy">Class Hierarchy</h2> 
+      <ul> 
+       <li class="circle">java.lang.<a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><span class="type-name-link">Object</span></a> 
+        <ul> 
+         <li class="circle">java.util.<a href="https://docs.oracle.com/javase/7/docs/api/java/util/AbstractCollection.html" title="class or interface in java.util" class="external-link"><span class="type-name-link">AbstractCollection</span></a>&lt;E&gt; (implements java.util.<a href="https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;E&gt;) 
+          <ul> 
+           <li class="circle">java.util.<a href="https://docs.oracle.com/javase/7/docs/api/java/util/AbstractList.html" title="class or interface in java.util" class="external-link"><span class="type-name-link">AbstractList</span></a>&lt;E&gt; (implements java.util.<a href="https://docs.oracle.com/javase/7/docs/api/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;E&gt;) 
+            <ul> 
+             <li class="circle">java.util.<a href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html" title="class or interface in java.util" class="external-link"><span class="type-name-link">ArrayList</span></a>&lt;E&gt; (implements java.lang.<a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Cloneable.html" title="class or interface in java.lang" class="external-link">Cloneable</a>, java.util.<a href="https://docs.oracle.com/javase/7/docs/api/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;E&gt;, java.util.<a href="https://docs.oracle.com/javase/7/docs/api/java/util/RandomAccess.html" title="class or interface in java.util" class="external-link">RandomAccess</a>, java.io.<a href="https://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html" title="class or interface in java.io" class="external-link">Serializable</a>) 
+              <ul> 
+               <li class="circle">org.jsoup.helper.<a href="ChangeNotifyingArrayList.html" title="class in org.jsoup.helper"><span class="type-name-link">ChangeNotifyingArrayList</span></a>&lt;E&gt;</li> 
+              </ul> </li> 
+            </ul> </li> 
+          </ul> </li> 
+         <li class="circle">org.jsoup.helper.<a href="DataUtil.html" title="class in org.jsoup.helper"><span class="type-name-link">DataUtil</span></a></li> 
+         <li class="circle">org.jsoup.helper.<a href="HttpConnection.html" title="class in org.jsoup.helper"><span class="type-name-link">HttpConnection</span></a> (implements org.jsoup.<a href="../Connection.html" title="interface in org.jsoup">Connection</a>)</li> 
+         <li class="circle">org.jsoup.helper.<a href="HttpConnection.KeyVal.html" title="class in org.jsoup.helper"><span class="type-name-link">HttpConnection.KeyVal</span></a> (implements org.jsoup.<a href="../Connection.KeyVal.html" title="interface in org.jsoup">Connection.KeyVal</a>)</li> 
+         <li class="circle">org.jsoup.helper.<a href="HttpConnection.Request.html" title="class in org.jsoup.helper"><span class="type-name-link">HttpConnection.Request</span></a> (implements org.jsoup.<a href="../Connection.Request.html" title="interface in org.jsoup">Connection.Request</a>)</li> 
+         <li class="circle">org.jsoup.helper.<a href="HttpConnection.Response.html" title="class in org.jsoup.helper"><span class="type-name-link">HttpConnection.Response</span></a> (implements org.jsoup.<a href="../Connection.Response.html" title="interface in org.jsoup">Connection.Response</a>)</li> 
+         <li class="circle">org.jsoup.helper.<a href="Validate.html" title="class in org.jsoup.helper"><span class="type-name-link">Validate</span></a></li> 
+         <li class="circle">org.jsoup.helper.<a href="W3CDom.html" title="class in org.jsoup.helper"><span class="type-name-link">W3CDom</span></a></li> 
+         <li class="circle">org.jsoup.helper.<a href="W3CDom.W3CBuilder.html" title="class in org.jsoup.helper"><span class="type-name-link">W3CDom.W3CBuilder</span></a> (implements org.jsoup.select.<a href="../select/NodeVisitor.html" title="interface in org.jsoup.select">NodeVisitor</a>)</li> 
+        </ul> </li> 
+      </ul> 
+     </section> 
+    </main> 
+    <footer role="contentinfo"> 
+     <nav role="navigation"> <!-- ======= START OF BOTTOM NAVBAR ====== --> 
+      <div class="bottom-nav" id="navbar.bottom"> 
+       <div class="skip-nav"> <a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a> 
+       </div> 
+       <ul id="navbar.bottom.firstrow" class="nav-list" title="Navigation"> 
+        <li class="home"><a href="//jsoup.org/" title="jsoup, the HTML parser for Java">jsoup</a></li> 
+        <li><a href="../../../index.html">Overview</a></li> 
+        <li><a href="package-summary.html">Package</a></li> 
+        <li>Class</li> 
+        <li>Use</li> 
+        <li class="nav-bar-cell1-rev">Tree</li> 
+        <li><a href="../../../deprecated-list.html">Deprecated</a></li> 
+        <li><a href="../../../index-all.html">Index</a></li> 
+        <li><a href="../../../help-doc.html">Help</a></li> 
+       </ul> 
+      </div> <!-- ======== END OF BOTTOM NAVBAR ======= --> <span class="skip-nav" id="skip.navbar.bottom"> <!--   --> </span> 
+     </nav> 
+     <p class="legal-copy"><small>Copyright © 2009–2021 <a href="https://jhy.io/">Jonathan Hedley</a>. All rights reserved.</small></p> 
+    </footer> 
+   </div> 
+  </div> 
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-89734-10','auto');ga('send', 'pageview');</script> 
+  <script async src="https://www.google-analytics.com/analytics.js"></script>  
+ </body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <title>Getting help for the jsoup HTML parser</title> 
+  <meta charset="UTF-8"> 
+  <meta name="keywords" content=""> 
+  <meta name="description" content="FAQ details and where to discuss new ideas"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link type="text/css" rel="stylesheet" href="/rez/style.css"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@jhy"> 
+  <meta name="twitter:title" content="Getting help for the jsoup HTML parser"> 
+  <meta name="twitter:description" content="FAQ details and where to discuss new ideas"> 
+  <meta name="twitter:image" content="https://jsoup.org/rez/jsoup%20logo%20twitter.png"> 
+ </head> 
+ <body class="n1-discussion"> 
+  <div class="wrap"> 
+   <div class="header"> 
+    <div class="nav-sections"> 
+     <ul> 
+      <li class="n1-home"><h4><a href="/">jsoup</a></h4></li> 
+      <li class="n1-news"><a href="/news/">News</a></li> 
+      <li class="n1-bugs"><a href="/bugs">Bugs</a></li> 
+      <li class="n1-discussion"><a href="/discussion">Discussion</a></li> 
+      <li class="n1-download"><a href="/download">Download</a></li> 
+      <li class="n1-api"><a href="/apidocs/">API Reference</a></li> 
+      <li class="n1-cookbook"><a href="/cookbook/">Cookbook</a></li> 
+      <li class="n1-try"><a href="//try.jsoup.org/">Try jsoup</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> <a href="/" itemprop="item"><span itemprop="name">jsoup</span></a> 
+     <meta itemprop="position" content="1"> </span> <span class="seperator">»</span> <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"> <span itemprop="name">Discussing new ideas and changes</span> 
+     <meta itemprop="position" content="2"> </span> 
+   </div> 
+   <div class="content"> 
+    <div class="col1"> 
+     <h1>FAQS and getting help</h1> 
+     <p>There are many helpful answers to <a href="https://stackoverflow.com/questions/tagged/jsoup?tab=Votes"><b>jsoup FAQs</b></a> on Stack Overflow.</p> 
+     <p>If you have a question on how to use <code>jsoup</code>, please post it on <a href="https://stackoverflow.com/questions/tagged/jsoup?tab=Votes"><b>Stack Overflow</b></a>. Use the <code>jsoup</code> tag.</p> 
+     <p>Please do not create a GitHub issue for questions on how generally to use jsoup; those issues will be closed.</p> 
+     <h1>Discussing new ideas and changes</h1> 
+     <p>If you have a new feature idea for jsoup, or would like to discuss a change proposal, or have other feedback, use <a href="https://github.com/jhy/jsoup/issues?q=label%3Adiscussion">GitHub issues</a> with the <code>discussion</code> label. Discussion is welcomed!</p> 
+    </div><!-- /col1 --> 
+    <div class="col2"> 
+    </div><!-- /col2 --> 
+   </div><!-- /content--> 
+   <div class="footer"> <b>jsoup HTML parser</b> © 2009 - 2021 <a href="//jhy.io/" rel="author"><b>Jonathan Hedley</b></a> 
+   </div> 
+  </div><!-- /wrap --> 
+  <script src="/rez/highlight.js" async></script> 
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-89734-10','auto');ga('send', 'pageview');</script> 
+  <script async src="https://www.google-analytics.com/analytics.js"></script>  
+ </body>
+</html>

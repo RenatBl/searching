@@ -1,0 +1,37 @@
+<html> 
+ <head>
+  <script language="javascript" type="text/javascript">
+function submitForm()
+{
+var hash = location.hash;
+if (hash) {
+if(hash.indexOf("#") == -1){
+hash="#"+hash
+}
+document.myForm.action = document.myForm.action+hash;
+}
+document.myForm.submit();
+}
+</script>
+  <base target="_self">
+ </head>
+ <body onload="submitForm()">
+  <noscript>
+   <p>JavaScript is required. Enable JavaScript to use OAM Server.</p>
+  </noscript>
+  <form action="https://login.oracle.com/mysso/signon.jsp" method="post" name="myForm">
+   <!-- DO NOT REMOVE -------------><!-- loginform renderBrowserView -----><!-- Required for SmartView Integration -->
+   <input type="hidden" name="bmctx" value="05C65B855F507509F2A50E4187F746B99F158A7EF51FEEBB23675A6C24B4C52D">
+   <input type="hidden" name="contextType" value="external">
+   <input type="hidden" name="username" value="string">
+   <input type="hidden" name="contextValue" value="%2Foam">
+   <input type="hidden" name="challenge_url" value="https%3A%2F%2Flogin.oracle.com%2Fmysso%2Fsignon.jsp">
+   <input type="hidden" name="password" value="secure_string">
+   <input type="hidden" name="request_id" value="-1940174138545646692">
+   <input type="hidden" name="authn_try_count" value="0">
+   <input type="hidden" name="OAM_REQ" value="VERSION_4~7qKmPXqIOcQ7qmWGXHseFpDUq35x%2bF3wIXlymsnrvQv9MO5Ij%2fcpE1cak%2bo8f8CeWPSkXUhDvsncfMDpZ9NGog54ReftOwahcGpbrOYuJX8Y8RlkLKYoTQwXJYqRyqC3O61euylssGqET6EDq4pulIUpnmQ%2f07feKOcRsblldHOiMb1jSasvDZqIrX8N84FJUbe8xLoTM8p45ejUU5zTO9Hr0EmaU260%2bATXQMRIIM2Yl6aVvhkL%2fofhYALym%2bY%2buOI8d8Hcmeoo91XIjj3ArFaqC%2fMVbUcshcSYFYP7EtT1GMnAfCB5w6AUHL3qtoScqOoRwP3%2fOnyvArJuuEJOXnszu7jrmnG4EYKCnAsytk5lX0avLwzIiplUQTAqUeOWy2%2bw24th4rqo4%2bh6oSujugcgosSzEsP%2fsVTbZgxtruRuCRoaS0%2fR7OvjNUYw54WiUuNe038dskOjiQ2f%2fOKWeUYEcSUg3o58uyiSEyGXfhMlvsG6Z5HQw4SRWQ0sekEhjjqQ5Qf7vU0h9Fk80AUATVGI2aSLWITfN1Q%2fLzgFSQfOCZQ9Iixk2oofq8kL7hfvxwAMhwpVBV%2bvKPZN21Rbd%2b8tSBk5JalmQP5VkY7lLo3iDP%2fyrC6K4tVRb%2bF7bCdQ1AyxHCO2oAapfCfmATB4gnyeurYTRsGvkQg0CY%2fP0TqpupOFq1Cq7bA5kQnpxHtqhI5yOa0vi%2f0pkPnt6i37PuvGXaZvwC%2bth0K2ur0QsarDqj2S0A8qxJrO6YGYt5KEmwtDOG22AUFqgkov9hO6tJCbKz4JAIMG6Zb8068PN6R04VSOPLBsIqWwHH2emqpwBohVG5A1P3dOs2YJzkG4nTfFsrdsnezFWSfgaLKEtEufhqcj4rECrddIhmiuIhHe8Gcll4FufjOXmj%2f5nIxk24kODdLzuJPMLTuRXcStRIrbW5lGOb7%2fi8eH9HcWRJoOp%2fcbgnEKKDRp4nVI2bxTR39YcvkrZoVgDXNkdj%2fvoQb6gWTY333nAtLeOn9IWxThgOmtO5HAluXXeWsek39Lyck28q3H9TCBcvxAzD3h%2bE%2f%2fju2SATzsCPNGyBFgt22tPkYmKVEUi%2b%2fwkvc1Rao%2ftaI4QdkyPAI2nsdjETGz3UW3pnUKo0lBvxPa6wj%2fa4W1PeCQYjzbmoMiKOPrC%2ftayWYvV08bxb6%2bBGfgIftm0zZ0PgRcDwGjwSfFA6p6viQ6BKivjbryO8J%2bkwEO5ILSJ2B7NlVirkAm1cydmeHJJal7%2bAufA4cUS8Ae%2bYLIFLEFyslXCYTztAcBylUqoCgRJeVPMnchgSetbUOycFzR%2fVVWetADkMFboy5H9XuiuKkCXQ78u7UC4qeLSl%2fBfc9E8BayRW1luTBF7PO3NFdWX90haZSgvkMklZW76PU87%2fMjza9jZqaDX5ZDQwwDzbEJRfx5abeAv2jJ%2bmSRqDwUISJxupyW%2bobnmW0sPv%2bNAfCwXD5mgAcXPkvK3QjgMnu0qECQ%2bYvGr6%2fF8zOyVTcJVu5IX9Qj%2bZMAc%2bbWaxSAClrD7usCDvw12sz8qpIB5onF5E6Q7T1r2mPNy2NxJ4L50ZotE92ADQH%2fwHyU%2bGyXYV96NIlYIVM5aakSTHgZWwL06H2szUm9KfSN0kNQ9z2cn1ufL2NRjLMwjG2GNMsxjgNnFRWTiFdBAeX%2fD65ayFAXCP%2f%2f8%2f49s7l%2f1KJa9P0l8n2LqVkkExP0SCRUlxePJIGExD6VN26KT%2fLA1EPrt0O%2fNHyr%2bggmwh4Ts%2fXf8IrhueAanNgAU9G7f%2fmLkCQR6wrdg5xk%2f5HcnM1jLuDwGMl5U%2frPgw1oVNv66ksgJurF2wBVq3mmwj%2fXz8l9bQSXQdrUsK8cfUoGZN17yDeKthmTrlB7uF3Q5zHUa1qDuK3Y5JNg81iBRMbuwnarqPhe8eN0K30SYx81Gq7c1Wf5B8FRudGA6bZdKE9Mu9%2bs8MjAm1vZW5yaLuWyCFO9UMK5WRuxxHdxY1j9SGo9mNZoaS%2fXKg6znOduJzzoygQVf6%2b2g1qxgwQZpqEBefT2GYSiQuL%2bM0ZABSNFAp0lPTNmmDZ35GAMRzqwHpyRdYaQxFjU%2f9E%3d">
+   <input type="hidden" name="locale" value="en_US">
+   <input type="hidden" name="resource_url" value="https%253A%252F%252Fwww.oracle.com%252Fwebapps%252Fredirect%252Fsignon%253Fnexturl%253D">
+  </form>
+ </body>
+</html>

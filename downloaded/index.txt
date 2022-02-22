@@ -1,0 +1,200 @@
+1) https://jsoup.org/cookbook/extracting-data/working-with-urls
+
+2) https://jsoup.org/
+
+3) https://jsoup.org/news/
+
+4) https://jsoup.org/bugs
+
+5) https://jsoup.org/discussion
+
+6) https://jsoup.org/download
+
+7) https://jsoup.org/apidocs/
+
+8) https://jsoup.org/apidocs/#skip.navbar.top
+
+9) https://jsoup.org/apidocs/overview-tree.html
+
+10) https://jsoup.org/apidocs/overview-tree.html#skip.navbar.top
+
+11) https://jsoup.org/apidocs/index.html
+
+12) https://jsoup.org/apidocs/index.html#skip.navbar.top
+
+13) https://jsoup.org/apidocs/deprecated-list.html
+
+14) https://jsoup.org/apidocs/deprecated-list.html#skip.navbar.top
+
+15) https://jsoup.org/apidocs/index-all.html
+
+16) https://jsoup.org/apidocs/index-all.html#skip.navbar.top
+
+17) https://jsoup.org/apidocs/help-doc.html
+
+18) https://jsoup.org/apidocs/help-doc.html#skip.navbar.top
+
+19) https://jsoup.org/apidocs/constant-values.html
+
+20) https://jsoup.org/apidocs/constant-values.html#skip.navbar.top
+
+21) https://jsoup.org/apidocs/constant-values.html#org.jsoup
+
+22) https://jsoup.org/apidocs/org/jsoup/helper/HttpConnection.html
+
+23) https://jsoup.org/apidocs/org/jsoup/helper/HttpConnection.html#skip.navbar.top
+
+24) https://jsoup.org/apidocs/org/jsoup/helper/package-summary.html
+
+25) https://jsoup.org/apidocs/org/jsoup/helper/package-summary.html#skip.navbar.top
+
+26) https://jsoup.org/apidocs/org/jsoup/helper/package-use.html
+
+27) https://jsoup.org/apidocs/org/jsoup/helper/package-use.html#skip.navbar.top
+
+28) https://jsoup.org/apidocs/org/jsoup/helper/package-tree.html
+
+29) https://jsoup.org/apidocs/org/jsoup/helper/package-tree.html#skip.navbar.top
+
+30) https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html
+
+31) https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#skip-navbar_top
+
+32) https://docs.oracle.com/javase/7/docs/api/overview-summary.html
+
+33) https://docs.oracle.com/javase/7/docs/api/overview-summary.html#skip-navbar_top
+
+34) https://docs.oracle.com/javase/7/docs/api/overview-tree.html
+
+35) https://docs.oracle.com/javase/7/docs/api/overview-tree.html#skip-navbar_top
+
+36) https://docs.oracle.com/javase/7/docs/api/deprecated-list.html
+
+37) https://docs.oracle.com/javase/7/docs/api/deprecated-list.html#skip-navbar_top
+
+38) https://docs.oracle.com/javase/7/docs/api/index-files/index-1.html
+
+39) https://docs.oracle.com/javase/7/docs/api/index-files/index-1.html#skip-navbar_top
+
+40) https://docs.oracle.com/javase/7/docs/api/help-doc.html
+
+41) https://docs.oracle.com/javase/7/docs/api/help-doc.html#skip-navbar_top
+
+42) https://docs.oracle.com/javase/7/docs/api/index.html?help-doc.html
+
+43) https://docs.oracle.com/javase/7/docs/api/allclasses-noframe.html
+
+44) https://docs.oracle.com/javase/7/docs/api/javax/swing/AbstractAction.html
+
+45) https://docs.oracle.com/javase/7/docs/api/javax/swing/AbstractAction.html#skip-navbar_top
+
+46) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html
+
+47) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html#skip-navbar_top
+
+48) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-use.html
+
+49) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-use.html#skip-navbar_top
+
+50) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-tree.html
+
+51) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-tree.html#skip-navbar_top
+
+52) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-tree.html
+
+53) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-tree.html#skip-navbar_top
+
+54) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-summary.html
+
+55) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-summary.html#skip-navbar_top
+
+56) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html
+
+57) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html#skip-navbar_top
+
+58) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/rowset/spi/package-use.html
+
+59) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html#javax.sql.rowset
+
+60) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html#javax.sql.rowset.spi
+
+61) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-summary.html
+
+62) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-summary.html#skip-navbar_top
+
+63) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-use.html
+
+64) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-use.html#skip-navbar_top
+
+65) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-tree.html
+
+66) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-tree.html#skip-navbar_top
+
+67) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-tree.html
+
+68) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-tree.html#skip-navbar_top
+
+69) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-summary.html
+
+70) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-summary.html#skip-navbar_top
+
+71) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html
+
+72) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#skip-navbar_top
+
+73) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/package-use.html
+
+74) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#javax.sql
+
+75) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#javax.sql.rowset
+
+76) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#javax.sql.rowset.spi
+
+77) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/CommonDataSource.html#javax.sql
+
+78) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/CommonDataSource.html#skip-navbar_top
+
+79) https://docs.oracle.com/javase/7/docs/api/javax/sql/CommonDataSource.html
+
+80) https://docs.oracle.com/javase/7/docs/api/javax/sql/CommonDataSource.html#skip-navbar_top
+
+81) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/CommonDataSource.html
+
+82) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/class-use/CommonDataSource.html
+
+83) https://docs.oracle.com/javase/7/docs/api/javax/sql/ConnectionPoolDataSource.html
+
+84) https://docs.oracle.com/javase/7/docs/api/javax/sql/ConnectionPoolDataSource.html#skip-navbar_top
+
+85) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/ConnectionPoolDataSource.html
+
+86) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/ConnectionPoolDataSource.html#skip-navbar_top
+
+87) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/class-use/ConnectionPoolDataSource.html
+
+88) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/ConnectionPoolDataSource.html#skip-navbar_bottom
+
+89) http://docs.oracle.com/javase/7/docs/index.html
+
+90) https://docs.oracle.com/javase/7/docs/index.html#skip2content
+
+91) http://www.oracle.com
+
+92) https://www.oracle.com/corporate/accessibility/
+
+93) https://www.oracle.com/corporate/accessibility/#maincontent
+
+94) https://www.oracle.com/
+
+95) https://www.oracle.com/index.html#maincontent
+
+96) https://www.oracle.com/universal-menu/
+
+97) https://www.oracle.com/universal-menu/#back
+
+98) https://www.oracle.com/universal-menu/#search
+
+99) https://www.oracle.com/universal-menu/#
+
+100) https://www.oracle.com/webapps/redirect/signon?nexturl=
+

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <title>Bugs: jsoup Java HTML parser</title> 
+  <meta charset="UTF-8"> 
+  <meta name="keywords" content=""> 
+  <meta name="description" content=""> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link type="text/css" rel="stylesheet" href="/rez/style.css"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@jhy"> 
+  <meta name="twitter:title" content="Bugs"> 
+  <meta name="twitter:description" content=""> 
+  <meta name="twitter:image" content="https://jsoup.org/rez/jsoup%20logo%20twitter.png"> 
+ </head> 
+ <body class="n1-bugs"> 
+  <div class="wrap"> 
+   <div class="header"> 
+    <div class="nav-sections"> 
+     <ul> 
+      <li class="n1-home"><h4><a href="/">jsoup</a></h4></li> 
+      <li class="n1-news"><a href="/news/">News</a></li> 
+      <li class="n1-bugs"><a href="/bugs">Bugs</a></li> 
+      <li class="n1-discussion"><a href="/discussion">Discussion</a></li> 
+      <li class="n1-download"><a href="/download">Download</a></li> 
+      <li class="n1-api"><a href="/apidocs/">API Reference</a></li> 
+      <li class="n1-cookbook"><a href="/cookbook/">Cookbook</a></li> 
+      <li class="n1-try"><a href="//try.jsoup.org/">Try jsoup</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> <a href="/" itemprop="item"><span itemprop="name">jsoup</span></a> 
+     <meta itemprop="position" content="1"> </span> <span class="seperator">»</span> <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"> <span itemprop="name">Bugs</span> 
+     <meta itemprop="position" content="2"> </span> 
+   </div> 
+   <div class="content"> 
+    <div class="col1"> 
+     <h1>Bugs</h1> 
+     <p>You can review existing issues (including bugs and new features) or file a new bug via the <a href="https://github.com/jhy/jsoup/issues?q=sort%3Acreated-desc"><b>issue list</b></a>.</p> 
+     <p>If you are not sure if something is a bug, or need a hand, please <a href="discussion"><b>join the discussion</b></a>.</p> 
+     <p>Please do not create a GitHub issue for questions on how generally to use jsoup; those issues will be closed.</p> 
+     <h3>What constitutes a bug?</h3> 
+     <p>The goal of jsoup is that is will sensibly parse any real-world HTML page into effectively the same parse tree that a modern browser would.</p> 
+     <p>If you find a page that jsoup doesn't parse correctly, or if it doesn't behave as the <a href="/apidocs/">documentation</a> says it will, then that's a bug, and your assistance by way of filing it is welcomed.</p> 
+     <p>For the fastest fix, please supply your code and the input HTML that triggers the issue.</p> 
+    </div><!-- /col1 --> 
+    <div class="col2"> 
+    </div><!-- /col2 --> 
+   </div><!-- /content--> 
+   <div class="footer"> <b>jsoup HTML parser</b> © 2009 - 2021 <a href="//jhy.io/" rel="author"><b>Jonathan Hedley</b></a> 
+   </div> 
+  </div><!-- /wrap --> 
+  <script src="/rez/highlight.js" async></script> 
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-89734-10','auto');ga('send', 'pageview');</script> 
+  <script async src="https://www.google-analytics.com/analytics.js"></script>  
+ </body>
+</html>

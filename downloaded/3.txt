@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <title>News: jsoup Java HTML parser</title> 
+  <meta charset="UTF-8"> 
+  <meta name="keywords" content=""> 
+  <meta name="description" content=""> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link type="text/css" rel="stylesheet" href="/rez/style.css"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@jhy"> 
+  <meta name="twitter:title" content="News"> 
+  <meta name="twitter:description" content=""> 
+  <meta name="twitter:image" content="https://jsoup.org/rez/jsoup%20logo%20twitter.png"> 
+ </head> 
+ <body class="n1-news"> 
+  <div class="wrap"> 
+   <div class="header"> 
+    <div class="nav-sections"> 
+     <ul> 
+      <li class="n1-home"><h4><a href="/">jsoup</a></h4></li> 
+      <li class="n1-news"><a href="/news/">News</a></li> 
+      <li class="n1-bugs"><a href="/bugs">Bugs</a></li> 
+      <li class="n1-discussion"><a href="/discussion">Discussion</a></li> 
+      <li class="n1-download"><a href="/download">Download</a></li> 
+      <li class="n1-api"><a href="/apidocs/">API Reference</a></li> 
+      <li class="n1-cookbook"><a href="/cookbook/">Cookbook</a></li> 
+      <li class="n1-try"><a href="//try.jsoup.org/">Try jsoup</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> <a href="/" itemprop="item"><span itemprop="name">jsoup</span></a> 
+     <meta itemprop="position" content="1"> </span> <span class="seperator">»</span> <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"> <span itemprop="name">Contents: News</span> 
+     <meta itemprop="position" content="2"> </span> 
+   </div> 
+   <div class="content"> 
+    <div class="col1"> 
+     <h3><a href="https://github.com/jhy/jsoup/blob/master/CHANGES">Full changelog</a></h3> 
+     <div class="toc"> 
+      <h3>News</h3> 
+      <ol> 
+       <li><a href="/news/release-1.14.3">jsoup Java HTML Parser release 1.14.3</a></li> 
+       <li><a href="/news/release-1.14.2">jsoup Java HTML Parser release 1.14.2</a></li> 
+       <li><a href="/news/release-1.14.1">jsoup Java HTML Parser release 1.14.1</a></li> 
+       <li><a href="/news/release-1.13.1">jsoup Java HTML Parser release 1.13.1</a></li> 
+       <li><a href="/news/release-1.12.2">jsoup Java HTML Parser release 1.12.2</a></li> 
+       <li><a href="/news/release-1.12.1">jsoup Java HTML Parser release 1.12.1</a></li> 
+       <li><a href="/news/release-1.11.3">jsoup Java HTML Parser release 1.11.3</a></li> 
+       <li><a href="/news/release-1.11.2">jsoup Java HTML Parser release 1.11.2</a></li> 
+       <li><a href="/news/release-1.11.1">jsoup Java HTML Parser release 1.11.1</a></li> 
+       <li><a href="/news/release-1.10.3">jsoup Java HTML Parser release 1.10.3</a></li> 
+       <li><a href="/news/release-1.10.2">jsoup release 1.10.2</a></li> 
+       <li><a href="/news/release-1.10.1">jsoup release 1.10.1</a></li> 
+       <li><a href="/news/release-1.9.2">jsoup release 1.9.2</a></li> 
+       <li><a href="/news/release-1.9.1">jsoup release 1.9.1</a></li> 
+       <li><a href="/news/release-1.8.3">jsoup release 1.8.3</a></li> 
+       <li><a href="/news/release-1.8.2">jsoup release 1.8.2</a></li> 
+       <li><a href="/news/release-1.8.1">jsoup release 1.8.1</a></li> 
+       <li><a href="/news/release-1.7.3">jsoup release 1.7.3</a></li> 
+       <li><a href="/news/release-1.7.2">jsoup release 1.7.2</a></li> 
+       <li><a href="/news/release-1.7.1">jsoup pep release 1.7.1</a></li> 
+       <li><a href="/news/release-1.6.3">jsoup 1.6.3 released</a></li> 
+       <li><a href="/news/release-1.6.2">jsoup 1.6.2 released</a></li> 
+       <li><a href="/news/release-1.6.1">HTML5 parser out of beta: jsoup 1.6.1 released</a></li> 
+       <li><a href="/news/release-1.6.0">Brand new HTML5 parser: jsoup 1.6.0 released</a></li> 
+       <li><a href="/news/release-1.5.2">jsoup 1.5.2 released</a></li> 
+       <li><a href="/news/release-1.5.1">jsoup 1.5.1 released</a></li> 
+       <li><a href="/news/release-1.4.1">jsoup 1.4.1 released</a></li> 
+       <li><a href="/news/release-1.3.3">jsoup 1.3.3 released</a></li> 
+       <li><a href="/news/release-1.3.2">jsoup 1.3.2 released</a></li> 
+       <li><a href="/news/release-1.3.1">Self-contained, and improved web connections: jsoup version 1.3.1</a></li> 
+       <li><a href="/news/release-1.2.3">HTML5 and international support: jsoup version 1.2.3</a></li> 
+       <li><a href="/news/release-1.2.2">Faster, lighter: jsoup version 1.2.2 released</a></li> 
+       <li><a href="/news/release-1.2.1">jsoup version 1.2.1 released</a></li> 
+       <li><a href="/news/release-1.1.1">jsoup version 1.1.1 released</a></li> 
+       <li><a href="/news/release-0.3.1">jsoup version 0.3.1 released</a></li> 
+       <li><a href="/news/release-0.2.2">jsoup version 0.2.2 released</a></li> 
+       <li><a href="/news/release-0.1.2">jsoup version 0.1.2 released</a></li> 
+       <li><a href="/news/jsoup-launches">jsoup HTML parser launches</a></li> 
+      </ol> 
+     </div> 
+    </div><!-- /col1 --> 
+    <div class="col2"> 
+    </div><!-- /col2 --> 
+   </div><!-- /content--> 
+   <div class="footer"> <b>jsoup HTML parser</b> © 2009 - 2021 <a href="//jhy.io/" rel="author"><b>Jonathan Hedley</b></a> 
+   </div> 
+  </div><!-- /wrap --> 
+  <script src="/rez/highlight.js" async></script> 
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-89734-10','auto');ga('send', 'pageview');</script> 
+  <script async src="https://www.google-analytics.com/analytics.js"></script>  
+ </body>
+</html>

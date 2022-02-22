@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en-US" class="no-js"> <!-- start : Framework/Generic --> <!-- start : ocom/common/global/components/framework/head --> 
+ <head> <!-- start : ocom/common/global/components/head --> 
+  <title>Accessibility | Oracle's Accessibility Program</title> 
+  <meta name="Title" content="Accessibility | Oracle's Accessibility Program"> 
+  <meta name="Description" content="Oracle is committed to creating accessible technologies and products that enhance the overall workplace environment and contribute to the productivity of our employees, our customers, and our customers' customers."> 
+  <meta name="Keywords" content="accessibility, accessible, disabled, Section 508, WCAG, VPAT"> 
+  <meta name="siteid" content="us"> 
+  <meta name="countryid" content="US"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="country" content="United States"> 
+  <meta name="Language" content="en"> 
+  <meta name="Updated Date" content="2021-07-12T16:34:56Z"> 
+  <script type="text/javascript">
+		var pageData = pageData || {};
+		//page info
+		pageData.pageInfo = pageData.pageInfo || {};
+		pageData.pageInfo.language = "en";
+		pageData.pageInfo.country = "United States";
+		pageData.pageInfo.pageTitle = "Accessibility | Oracle's Accessibility Program";
+		pageData.pageInfo.description = "Oracle is committed to creating accessible technologies and products that enhance the overall workplace environment and contribute to the productivity of our employees, our customers, and our customers' customers.";
+		pageData.pageInfo.keywords = "accessibility, accessible, disabled, Section 508, WCAG, VPAT";
+		pageData.pageInfo.siteId = "us";
+		pageData.pageInfo.countryId = "US";
+		pageData.pageInfo.updatedDate = "2021-07-12T16:34:56Z";
+	</script> <!-- start : ocom/common/global/components/seo-taxonomy-meta-data--> 
+  <script type="text/javascript">
+		var pageData = pageData || {};
+		//taxonmy
+		pageData.taxonomy = pageData.taxonomy || {};
+		pageData.taxonomy.productServices = [];
+		pageData.taxonomy.industry = [];
+		pageData.taxonomy.region = [];
+		pageData.taxonomy.contentType = [];
+		pageData.taxonomy.buyersJourney = [];
+		pageData.taxonomy.revenue = [];
+		pageData.taxonomy.title = [];
+		pageData.taxonomy.audience = [];
+		pageData.taxonomy.persona = [];
+	</script> <!-- end : ocom/common/global/components/seo-taxonomy-meta-data--> <!-- start : ocom/common/global/components/social-media-meta-tags --> <!-- end : ocom/common/global/components/social-media-meta-tags --> <!-- start : ocom/common/global/components/seo-hreflang-meta-tags -->
+  <link rel="canonical" href="https://www.oracle.com/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-AE" href="https://www.oracle.com/ae/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="es-AR" href="https://www.oracle.com/ar/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-AU" href="https://www.oracle.com/au/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-BE" href="https://www.oracle.com/be/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="pt-BR" href="https://www.oracle.com/br/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-CA" href="https://www.oracle.com/ca-en/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="fr-CA" href="https://www.oracle.com/ca-fr/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="de-CH" href="https://www.oracle.com/ch-de/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="fr-CH" href="https://www.oracle.com/ch-fr/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="es-CL" href="https://www.oracle.com/cl/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="zh-CN" href="https://www.oracle.com/cn/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="es-CO" href="https://www.oracle.com/co/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="cs-CZ" href="https://www.oracle.com/cz/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="de-DE" href="https://www.oracle.com/de/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-US" href="https://www.oracle.com/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-EG" href="https://www.oracle.com/eg/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="es-ES" href="https://www.oracle.com/es/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="fr-FR" href="https://www.oracle.com/fr/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-HK" href="https://www.oracle.com/hk/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-ID" href="https://www.oracle.com/id/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-IE" href="https://www.oracle.com/ie/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-IL" href="https://www.oracle.com/il-en/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-IN" href="https://www.oracle.com/in/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="it-IT" href="https://www.oracle.com/it/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="ja-JP" href="https://www.oracle.com/jp/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-KE" href="https://www.oracle.com/ke/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="ko-KR" href="https://www.oracle.com/kr/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="es-MX" href="https://www.oracle.com/mx/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-MY" href="https://www.oracle.com/my/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="nl-NL" href="https://www.oracle.com/nl/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="es-PE" href="https://www.oracle.com/pe/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-PH" href="https://www.oracle.com/ph/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="pl-PL" href="https://www.oracle.com/pl/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="pt-PT" href="https://www.oracle.com/pt/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="ro-RO" href="https://www.oracle.com/ro/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="ru-RU" href="https://www.oracle.com/ru/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-SA" href="https://www.oracle.com/sa/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="sv-SE" href="https://www.oracle.com/se/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-SG" href="https://www.oracle.com/sg/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="sk-SK" href="https://www.oracle.com/sk/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="tr-TR" href="https://www.oracle.com/tr/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="zh-TW" href="https://www.oracle.com/tw/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-GB" href="https://www.oracle.com/uk/corporate/accessibility/"> 
+  <link rel="alternate" hreflang="en-ZA" href="https://www.oracle.com/za/corporate/accessibility/"> 
+  <meta name="altpages" content="ae,ar,au,be,br,ca-en,ca-fr,ch-de,ch-fr,cl,cn,co,cz,de,eg,es,fr,hk,id,ie,il-en,in,it,jp,ke,kr,mx,my,nl,pe,ph,pl,pt,ro,ru,sa,se,sg,sk,tr,tw,uk,za"> 
+  <script type="text/javascript">
+						var pageData = pageData || {};
+						//page info
+						pageData.pageInfo = pageData.pageInfo || {};
+						pageData.pageInfo.altPages = "ae,ar,au,be,br,ca-en,ca-fr,ch-de,ch-fr,cl,cn,co,cz,de,eg,es,fr,hk,id,ie,il-en,in,it,jp,ke,kr,mx,my,nl,pe,ph,pl,pt,ro,ru,sa,se,sg,sk,tr,tw,uk,za";
+					</script> <!-- end : ocom/common/global/components/seo-hreflang-meta-tags --> <!-- end : ocom/common/global/components/head --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!-- start : ocom/common/global/components/framework/layoutAssetHeadInfo --> <!-- Container/Display Start --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- BEGIN OCOM CSS/JS --> 
+  <script>
+ !function(){
+ var d=document.documentElement;d.className=d.className.replace(/no-js/,'js');
+ if(document.location.href.indexOf('betamode=') > -1) document.write('<script src="https://www.oracle.com/asset/web/js/ocom-betamode.js"><\/script>');
+ }();
+ </script> 
+  <link data-wscss href="https://www.oracle.com/asset/web/css/ocom-v1-base.css" rel="stylesheet"> 
+  <link data-wscss href="https://www.oracle.com/asset/web/css/ocom-v1-styles.css" rel="preload" as="style" onload="this.rel='stylesheet'" onerror="this.rel='stylesheet'"> 
+  <noscript> 
+   <link href="https://www.oracle.com/asset/web/css/ocom-v1-styles.css" rel="stylesheet"> 
+  </noscript> 
+  <link data-wsjs data-reqjq href="https://www.oracle.com/asset/web/js/ocom-v1-base.js" rel="preload" as="script"> 
+  <link data-wsjs data-reqjq href="https://www.oracle.com/asset/web/js/ocom-v1-lib.js" rel="preload" as="script"> 
+  <script data-wsjs src="https://www.oracle.com/asset/web/js/jquery-min.js" async onload="$('head link[data-reqjq][rel=preload]').each(function(){var a = document.createElement('script');a.async=false;a.src=$(this).attr('href');this.parentNode.insertBefore(a, this);});$(function(){$('script[data-reqjq][data-src]').each(function(){this.async=true;this.src=$(this).data('src');});});"></script> <!-- END OCOM CSS/JS --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Container/Display end --> <!-- Container/Display Start --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- www-us HeadAdminContainer --> 
+  <link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-32.png" sizes="32x32"> 
+  <link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-128.png" sizes="128x128"> 
+  <link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-192.png" sizes="192x192"> 
+  <link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-120.png" sizes="120x120"> 
+  <link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-152.png" sizes="152x152"> 
+  <link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-180.png" sizes="180x180"> 
+  <meta name="msapplication-TileColor" content="#fcfbfa"> 
+  <meta name="msapplication-square70x70logo" content="favicon-128.png"> 
+  <meta name="msapplication-square150x150logo" content="favicon-270.png"> 
+  <meta name="msapplication-TileImage" content="favicon-270.png"> 
+  <meta name="msapplication-config" content="none"> 
+  <meta name="referrer" content="no-referrer-when-downgrade"> 
+  <style>
+  #oReactiveChatContainer1 { display:none;}
+  </style> <!--Tealium embed code Start --> 
+  <script src="https://tms.oracle.com/main/prod/utag.sync.js"></script> <!-- Loading script asynchronously --> 
+  <script type="text/javascript">
+    (function(a,b,c,d){
+    if(location.href.indexOf("tealium=dev") == -1) {
+    a='https://tms.oracle.com/main/prod/utag.js';
+    } else {
+    a='https://tms.oracle.com/main/dev/utag.js';
+    }
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script> <!--Tealium embed code End--> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Container/Display end --> <!-- Container/Display Start --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- BEGIN: For chatbot A/B Testing --> 
+  <script>
+if(document.getElementsByTagName("meta").Keywords.content.indexOf('AA01Chat') > 0){
+    var chatbot = "SalesChat";
+}
+</script> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Container/Display end --> <!-- end : ocom/common/global/components/framework/layoutAssetHeadInfo --> 
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-f15adbc5-6ab6-4887-aed6-9a311b41d8d3","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"true","rua.isuxp":"false","rua.texp":"norulematch"}]);</script> 
+  <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="DXNLE-YBWWY-AR74T-WMD99-77VRA",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"DXNLE-YBWWY-AR74T-WMD99-77VRA";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="",a="evgyirqxgqieyyquszia-f-a8556769b-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"32","ak.cp":"82485","ak.ai":parseInt("604074",10),"ak.ol":"0","ak.cr":38,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"1b28b3e8","ak.r":23191,"ak.a2":n,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"37.77.132.0","ak.cport":62572,"ak.gh":"2.21.96.61","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1645516368","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==7iTy3VVLZR+zUwojhZIbKYue8WgW5nUtKYYILiM+CDqOKlBCEWJuJw134l45wLZ8ecdB9A11meZiHo+yI5thxE05C2pKRyIehZj+UrrcbDiUOmqwfynSQpMSbezgh3am08FUcxflZMaoa3OaC8ophu3oj/dEiRyJoMW3RIH2KWhs0gXPXcrgl69WTXkpE5Xe+bAYmeps/7PcRppBs33L52hMB/9TebEJpr/3ko2fYXwmJ8zztWKXb2JPiWxXsWNAes8koHTeBPnSP/rHrSB2NJtqSiUEEUxBEwf3C8SD4cyyDzk41jEQFdxLgIS6NNJy/jr0q5CTllzOd2+1PIsdNE88JQKSatId9FZBiXVInKq1Vq+s3ETdRJyAkYuhhy8S2nBZVgKipJ9wop1ywWWQydf5m90YJ1DaYWLlGhR8enM=","ak.pv":"274","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>
+  <script>bazadebezolkohpepadr="749095935"</script>
+  <script type="text/javascript" src="https://www.oracle.com/akam/11/2ca648e2" defer></script>
+ </head><!-- end : ocom/common/global/components/framework/head --><!-- start : ocom/common/global/components/framework/layoutAssetStartBodyInfo --> 
+ <body class="f11 f11v6"> <!-- Container/Display Start --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- www-us StartBodyAdminContainer --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Container/Display end --> 
+  <div class="f11w1"> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- U28v1 --> 
+   <section class="u28 u28v1 u28adj" id="u28" data-trackas="header"> 
+    <div id="u28skip2content" aria-expanded="false" tabindex="-1"> 
+     <ul> 
+      <li><a id="u28acc" href="https://www.oracle.com/corporate/accessibility/">Click to view our Accessibility Policy</a></li> 
+      <li><a id="u28skip2c" href="#maincontent">Skip to content</a></li> 
+     </ul> 
+    </div> 
+    <div class="u28w1"> 
+     <div class="cwidth"> 
+      <div class="u28s1" id="u28s1"> <a class="u28home rw-logo" href="/" data-lbl="logo">home</a> <a class="u28ham" href="/universal-menu/" data-lbl="menu">nav</a> 
+      </div> 
+      <div class="u28s2"> 
+       <div class="u28w2"> 
+        <form name="askoracle" id="askoracle" class="askoracle" data-contentpaths="/content/Web/Shared/Auto-Suggest Panel Event" method="get" action="/search/results" data-resultsclose="Close" data-resultscloselabel="Exit Search Results"> 
+         <input type="hidden" name="Nty" value="1"> 
+         <input type="hidden" name="Dy" value="1"> 
+         <input type="hidden" name="Ntk" value="SI-ALL5"> 
+         <input type="hidden" name="cty" value="us"> 
+         <input type="hidden" name="lang" value="en"> 
+         <div class="u28w3"> 
+          <div class="u28logo rw-logo"> <span>Oracle</span> 
+          </div> <a class="u28-back rw-cv-left" href="#back" title="Close Search Field"> <span>Close</span> </a> <a class="u28-searchicon" href="#search"> <span>Search</span> </a> <span class="u28input"> <input id="askoracleinput" name="Ntt" value="" data-prefix="Ask" placeholder="Ask" autocomplete="off" role="combobox" aria-label="Search Oracle.com"> <span class="u28submit"> <input class="u28searchbttn" type="submit" value="Submit Search"> </span> </span> 
+         </div> 
+        </form> 
+       </div> 
+      </div> 
+      <nav class="u28s4"> <a class="u28search u28navitm" id="u28search" aria-label="Open Search Field" href="#search"><span>Search</span></a> <a href="#products" data-target="products" class="u28navitm">Products</a> <a href="#industries" data-target="industries" class="u28navitm">Industries</a> <a href="#resources" data-target="resources" class="u28navitm">Resources</a> <a href="#support" data-target="support" class="u28navitm">Support</a> <a href="#events" data-target="events" class="u28navitm">Events</a> <a href="#developer" data-target="developer" class="u28navitm">Developer</a> <a href="#partners" data-target="partners" class="u28navitm">Partners</a> 
+      </nav> 
+      <div class="u28s3" id="u28s3"> 
+       <div class="u28-profile"> <a href="#" class="u28prof" data-lbl="sign-in-account" title="View Accounts">
+         <div class="acttxt">
+          View Accounts
+         </div><span>Sign In</span></a> 
+        <div class="u28-profilew1"> <span class="u28actbck u28back">Back</span> <span class="u28acttitle">Oracle Account</span> 
+         <div class="u28-profilew2"> <span class="u28acttitle">Cloud Account</span> <a href="/cloud/sign-in.html" class="u28cloudbg" data-lbl="go-to-cloud-website" aria-label="Sign in to Cloud">Sign in to Cloud</a> <a href="/cloud/free/?source=:ow:o:h:nav:OHP0625ViewAccountsButton&amp;intcmp=:ow:o:h:nav:OHP0625ViewAccountsButton" class="u28btn2" data-lbl="cta-0625-nav-header-accounts-free-tier-oci" aria-label="Sign Up for Free Cloud Tier">Sign Up for Free Cloud Tier</a> 
+         </div> 
+         <ul class="u28l-out"> 
+          <li><a href="https://www.oracle.com/webapps/redirect/signon?nexturl=" data-lbl="profile:sign-in-account" class="u28btn1">Sign-In</a></li> 
+          <li><a href="https://profile.oracle.com/myprofile/account/create-account.jspx" data-lbl="profile:create-account" class="u28btn2">Create an Account</a></li> 
+         </ul> 
+         <ul class="u28l-in"> 
+          <li><a href="/corporate/contact/help.html" data-lbl="help">Help</a></li> 
+          <li><a href="javascript:sso_sign_out();" id="u28pfile-sout" data-lbl="signout">Sign Out</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="u28-contact"> <a href="/corporate/contact/" class="u28contact" data-lbl="contact-sales" title="Contact Sales"><span>Contact Sales</span></a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="u28w4" id="u28w4"> 
+     <div class="u28w1a u28w5 clstrgt"> 
+      <div class="u28w6"> <!-- Search Results --> 
+       <div class="u28w8 u28trgt"></div> 
+       <div class="u28w9"> 
+        <div class="u28result u28noresults"> 
+         <div class="u28rw1"> 
+          <div class="u28rw2"> 
+           <div>
+            No results found
+           </div> 
+           <p>Your search did not match any results.</p> 
+           <p>We suggest you try the following to help find what you’re looking for:</p> 
+           <ul class="u28w7a"> 
+            <li>Check the spelling of your keyword search.</li> 
+            <li>Use synonyms for the keyword you typed, for example, try “application” instead of “software.”</li> 
+            <li>Try one of the popular searches shown below.</li> 
+            <li>Start a new search.</li> 
+           </ul> 
+           <div>
+            Trending Questions
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <nav id="u28nav" class="u28nav" data-trackas="menu"> <a href="#close" class="mnavback u28back icn-close">Close</a> 
+    </nav> <a id="maincontent">&nbsp;</a> 
+   </section> <!-- /U28v1 --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- end : ocom/common/global/components/framework/layoutAssetStartBodyInfo --> <!-- start : ocom/common/global/components/banner --> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- CH12v1 --> 
+   <section style="background-image:url(/a/ocom/img/ch12-blog-shifting-cn.jpg);" class="ch12 ch12v1 pghero herotabs bgvdarkblue txtlight" data-trackas="ch12" data-ocomid="ch12"> 
+    <div class="ch12w1 cwidth"> 
+     <div class="ch12w2"> 
+      <h2>Oracle's Accessibility Program</h2> 
+      <p>“Oracle is committed to creating accessible technologies and products that enhance the overall workplace environment and contribute to the productivity of our employees, our customers, and our customers' customers.”</p> 
+      <p><strong>—Safra Catz, Chief Executive Officer, Oracle</strong></p> 
+     </div> 
+    </div> 
+   </section> <!-- /CH12v1 --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- end : ocom/common/global/components/banner --> <!-- start : ocom/common/global/components/u03v5-breadcrumb --> <!-- U03v5 --> 
+   <nav class="u03 u03v5 u03bttns" data-trackas="breadcrumb" data-ocomid="u03"> 
+    <div class="cwidth"> 
+     <div class="u03w1"> 
+      <ul> 
+       <li class="u03first"><a href="/corporate/">About Oracle</a></li> 
+      </ul> 
+      <h1>Oracle's Accessibility Program</h1> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+		var pageData = pageData || {};
+		//page info
+		pageData.pageInfo = pageData.pageInfo || {};
+		pageData.pageInfo.breadCrumbs = "About Oracle";
+	</script> 
+    <script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement":
+	  [
+		{ "@type": "ListItem", "position": 1, "name": "About Oracle", "item": "https://www.oracle.com/corporate/" },
+		{ "@type": "ListItem", "position": 2, "name": "Accessibility", "item": "https://www.oracle.com/corporate/accessibility/" }
+	  ]
+	}
+	</script> 
+   </nav> <!-- /U03v5 --> <!-- end : ocom/common/global/components/u03v5-breadcrumb --> <!--  Start : ocom/common/global/components/ct12-content-tabs --> <!-- CT12v0 --> 
+   <nav class="ct12 ct12v0" data-moretxt="More" data-ocomid="ct12"> 
+    <div class="ct12w1 cwidth"> 
+     <div class="ct12w2"> 
+      <ul> 
+       <li class="ct12current">
+        <div>
+         <a href="/corporate/accessibility/">Overview</a>
+        </div></li> 
+       <li>
+        <div>
+         <a href="/corporate/accessibility/policy.html">Policy</a>
+        </div></li> 
+       <li>
+        <div>
+         <a href="/corporate/accessibility/vpats.html">VPATs</a>
+        </div></li> 
+       <li>
+        <div>
+         <a href="/corporate/accessibility/learning-support.html">Learning and Support </a>
+        </div></li> 
+       <li>
+        <div>
+         <a href="/corporate/accessibility/resources.html">Resources</a>
+        </div></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </nav> <!-- /CT12v0 --> <!--  end : ocom/common/global/components/ct12-content-tabs --> <!-- start : ocom/common/global/components/compass/related-widgets --> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- CC01v0 --> 
+   <section class="cc01 cc01v0 cpad"> 
+    <div class="cc01w1 cwidth"> 
+     <p>For many reasons—legal, business, and ethical—Oracle recognizes the need for our applications, and our customers' and partners' products built with our tools, to be usable by the disabled community. The Oracle Accessibility Program Office, reporting to the office of the Chief Corporate Architect, is responsible for defining the corporate standards for accessibility, and developing materials to train all employees so that they can successfully create products that meet those standards.</p> 
+    </div> 
+   </section> <!-- /CC01v0 --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- CB34v1 --> 
+   <section class="cb34 cb34v1 cpad bglightgrey"> 
+    <div class="cb34w5 cwidth"> 
+     <div class="cb34w1"> 
+      <div class="cb34w4"> 
+       <div class="icn-img icn-circle icn-large-quote bgslate">
+        &nbsp;
+       </div> 
+      </div> 
+     </div> 
+     <div class="cb34w2"> 
+      <p>"Oracle's business is information—how to manage it, use it, share it, protect it. Our commitment to create products that simplify, standardize and automate extends to all users, including users who are disabled."</p> 
+      <div class="cb34w3">
+        —Edward Screven, Chief Corporate Architect, Oracle 
+      </div> 
+     </div> 
+    </div> 
+   </section> <!-- /CB34v1 --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- CB89v0 --> 
+   <section class="cb89 cb89v0 cpad" data-trackas="cb89" data-ocomid="cb89"> 
+    <div class="cb89w1 cwidth"> 
+     <div class="col-framework col2 col-gutters col-justified"> 
+      <div class="col-w1"> 
+       <div class="col-item"> 
+        <div class="col-item-w1"> 
+         <h5>White Papers</h5> 
+         <ul class="cta-list"> 
+          <li><a href="/a/ocom/docs/corporate/accessibility-guide-obiee-11g.pdf" target="_blank">A Guide to Accessible Content for Oracle Business Intelligence Suite 11g (PDF)</a></li> 
+          <li><a href="/a/ocom/docs/corporate/accessibility-guide-obiee.pdf" target="_blank">A Guide to Accessible Content for Oracle Business Intelligence Suite Enterprise Edition Plus 10g (PDF)</a></li> 
+          <li><a href="/a/ocom/docs/corporate/siebel-accessibility-guide.pdf" target="_blank">Accessibility Guide for Siebel Business Applications Version 8.1 (PDF)</a></li> 
+          <li><a href="/a/ocom/docs/corporate/forms-applications-accessibility.pdf" target="_blank">Accessibility in Oracle Forms Applications (PDF)</a></li> 
+          <li><a href="/a/ocom/docs/corporate/assistive-tech-oracle-html-wp.pdf" target="_blank">Using Assistive Technology Products with Oracle HTML-based Products (PDF)</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="col-item"> 
+        <div class="col-item-w1"> 
+         <h5>Technical Information</h5> 
+         <ul class="cta-list"> 
+          <li><a href="/a/ocom/docs/corporate/accessibility-program.pdf" target="_blank">The Oracle Corporate Accessibility Program (PDF)</a></li> 
+          <li><a href="/a/ocom/docs/corporate/accessibility-bloor-research-wp.pdf" target="_blank">Bloor Research: Oracle's Commitment to Accessibility (PDF)</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </section> <!-- /CB89v0 --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- CB105v0 --> 
+   <section class="cb105 cb105v0 cpad bgvlightgrey" data-trackas="cb105" data-ocomid="cb105"> 
+    <div class="cb105w1 cwidth"> 
+     <header> 
+      <h3>Oracle Accessibility News</h3> <a class="icn-img icn-plus cb105toggle-all"> <span class="cb105open-all">Open all</span> <span class="cb105close-all">Close all</span> </a> 
+     </header> 
+     <ul> 
+      <li class="cb105open"> <h5>March 2021 Oracle Presentation and Sponsorship of CSUN</h5> 
+       <div class="cb105w2"> 
+        <p>Oracle was a sponsor of the <a href="https://www.csun.edu/cod/conference/sessions/2021" target="_blank">2021 Annual CSUN Assistive Technology Conference</a>, hosted by California State University, Northridge, March 2021. Michele Van Doozer of the Oracle Accessibility Program Office co-presented <a href="https://www.csun.edu/cod/conference/sessions/2021/index.php/public/presentations/view/1179" target="_blank">Accessibility Conformance Reports Using the VPAT</a> with IBM and HP. The presentation included introducing the <a href="https://www.itic.org/policy/accessibility/vpat-training" target="_blank">Voluntary Product Accessibility Template (VPAT) Training</a> courses available from Information Technology Industry Council (ITI).</p> 
+       </div> </li> 
+      <li class="cb105open"> <h5>February 2021: European Disability Forum and Oracle e-Accessibility Scholarship 2021</h5> 
+       <div class="cb105w2"> 
+        <p>Applications are being accepted for the <a href="https://www.edf-feph.org/european-disability-forum-and-oracle-e-accessibility-scholarship-2021/" target="_blank">Oracle and European Disability Forum (EDF) scholarship</a> for students with disabilities studying in the field of Computer Science, Computer Engineering, User Experience, or related fields enrolled at a EU university for the academic year 2020-2021. Deadline to apply is March 6, 2020. The scholarship consists of 6,500€ to be awarded based on a project or research that will be conducted during the academic year. The Scholarship will be awarded primarily based on a project or thesis in which the needs of persons with disabilities in terms of accessibility to ICT (e-Accessibility) are taken into consideration and/or an innovative solution to enhance their access is proposed. The project must be an integral component of the educational program undertaken by the student (e.g. final year assignment or part of their Masters or PhD).</p> 
+       </div> </li> 
+      <li class="cb105open"> <h5>October 2020: European Disability Forum and Oracle e-Accessibility Scholarship Winner Announced</h5> 
+       <div class="cb105w2"> 
+        <p>Oracle and the European Disability Forum (EDF) announced Renata Deszo-Dinnyes as the winner of the 2019-2020 edition of the EDF-Oracle e-accessibility scholarship. This 6,500 euros award is to higher education students with disabilities in fields such as computer science, computer engineering, user experience and others. Renata's study focuses on user experience related to digitally manufactured objects, for example using a 3D printer to manufacture a prosthetic based on computer data. Full details of the scholarship and the awarding to Renata Deszo-Dinnyes can be found on <a href="http://www.edf-feph.org/newsroom/news/announcement-edf-and-oracle-award-scholarship-researcher-disability">Announcement - EDF and Oracle Award Scholarship to Researcher with Disability</a>.</p> 
+       </div> </li> 
+      <li class="cb105open"> <h5>March 2020: Oracle Presentations and Sponsorship of CSUN</h5> 
+       <div class="cb105w2"> 
+        <p>Oracle was an Executive Sponsor of the <a href="https://www.csun.edu/cod/conference/sessions/2020/">2020 Annual CSUN Assistive Technology Conference</a>, hosted by California State University, Northridge, March 10-13, 2020. Due to travel restrictions Oracle was unable to present at the conference this year. We look forward to the virtual conference next year. </p> 
+       </div> </li> 
+     </ul> 
+    </div> 
+   </section> <!-- /CB105v0 --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- U10v3 --> 
+   <section class="u10 u10v3 u10fl" data-trackas="footer" data-ocomid="u10"> 
+    <div class="u10w8 cwidth"> 
+     <div class="u10w9"> 
+      <div class="u10title">
+       Stay Connected
+      </div> 
+     </div> 
+     <div class="u10w1"> 
+      <div class="u10w2"> <a href="/corporate/contact/global.html" target="_top"> 
+        <div class="u10w6 icn-img icn-telephone">
+         &nbsp;
+        </div> <span>Contact us</span> </a> 
+      </div> 
+      <div class="u10w2"> <a href="mailto:accessible_ww@oracle.com" target="_top"> 
+        <div class="u10w6 icn-img icn-email">
+         &nbsp;
+        </div> <span>Email us</span> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </section> <!-- /U10v3 --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- end : ocom/common/global/components/compass/related-widgets --> <!-- start : ocom/common/global/components/framework/layoutAssetEndBodyInfo --> <!-- Dispatcher:null --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- U10v0 --> 
+   <div id="u10" class="u10 u10v6" data-trackas="ffooter" data-ocomid="u10"> 
+    <div class="u10w1"> 
+     <div class="u10w2"> 
+      <div class="u10w3"> 
+       <div class="u10ttl">
+        Resources for
+       </div> 
+       <ul> 
+        <li><a data-lbl="resources-for:career" href="/corporate/careers/">Careers</a></li> 
+        <li><a data-lbl="resources-for:developers" href="https://developer.oracle.com/">Developers</a></li> 
+        <li><a data-lbl="resources-for:investors" href="https://investor.oracle.com/home/default.aspx">Investors</a></li> 
+        <li><a data-lbl="resources-for:partners" href="/partner/">Partners</a></li> 
+        <li><a data-lbl="resources-for:startups" href="/startup/">Startups</a></li> 
+        <li><a data-lbl="resources-for:students-educators" href="https://academy.oracle.com/en/oa-web-overview.html">Students and Educators</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="u10w2"> 
+      <div class="u10w3"> 
+       <div class="u10ttl">
+        Why Oracle
+       </div> 
+       <ul> 
+        <li><a data-lbl="why-oracle:analyst-reports" href="/corporate/analyst-reports.html">Analyst Reports</a></li> 
+        <li><a data-lbl="why-oracle:gartner-mq-erp-cloud" href="/erp/what-is-erp/best-erp/">Gartner MQ for ERP Cloud</a></li> 
+        <li><a data-lbl="why-oracle:cloud-economics" href="/cloud/economics/">Cloud Economics</a></li> 
+        <li><a data-lbl="why-oracle:corporate-responsibility" href="/corporate/citizenship/">Corporate Responsibility</a></li> 
+        <li><a data-lbl="why-oracle:diversity-inclusion" href="/corporate/careers/diversity-inclusion/">Diversity and Inclusion</a></li> 
+        <li><a data-lbl="why-oracle:security-pracitices" href="/corporate/security-practices/">Security Practices</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="u10w2"> 
+      <div class="u10w3"> 
+       <div class="u10ttl">
+        Learn
+       </div> 
+       <ul> 
+        <li><a data-lbl="learn:cloud-computing" href="/cloud/what-is-cloud-computing/">What is cloud computing?</a></li> 
+        <li><a data-lbl="learn:crm" href="/cx/what-is-crm/">What is CRM?</a></li> 
+        <li><a data-lbl="learn:docker" href="/cloud-native/container-registry/what-is-docker/">What is Docker?</a></li> 
+        <li><a data-lbl="learn:kubernetes" href="/cloud-native/container-engine-kubernetes/what-is-kubernetes/">What is Kubernetes?</a></li> 
+        <li><a data-lbl="learn:python" href="https://developer.oracle.com/python/what-is-python/">What is Python?</a></li> 
+        <li><a data-lbl="learn:saas" href="/applications/what-is-saas/">What is SaaS?</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="u10w2"> 
+      <div class="u10w3"> 
+       <div class="u10ttl">
+        What’s New
+       </div> 
+       <ul> 
+        <li><a data-lbl="whatsnew:cloud-trial" href="/cloud/free/?source=:ow:o:h:nav:050120SiteFooter&amp;intcmp=:ow:o:h:nav:050120SiteFooter">Try Oracle Cloud Free Tier</a></li> 
+        <li><a data-lbl="whatsnew:product-navigator" href="/product-navigator/">Oracle Product Navigator</a></li> 
+        <li><a data-lbl="whatsnew:premier-league" href="/premier-league/">Oracle and Premier League</a></li> 
+        <li><a data-lbl="whatsnew:red-bull-racing" href="/redbullracing/">Oracle Red Bull Racing</a></li> 
+        <li><a data-lbl="whatsnew:employee-exp-platform" href="/human-capital-management/journeys/">Employee Experience Platform</a></li> 
+        <li><a data-lbl="whatsnew:cloud-rewards" href="/cloud/rewards/">Oracle Support Rewards</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="u10w2"> 
+      <div class="u10w3"> 
+       <div class="u10ttl">
+        Contact Us
+       </div> 
+       <ul> 
+        <li><a href="tel:18006330738">US Sales: +1.800.633.0738</a></li> 
+        <li><a data-lbl="contact-us:how-can-we-help" href="/corporate/contact/">How can we help?</a></li> 
+        <li><a data-lbl="contact-us:subscribe-to-emails" href="https://go.oracle.com/subscriptions">Subscribe to emails</a></li> 
+        <li><a data-lbl="contact-us:events" href="/events/">Events</a></li> 
+        <li><a data-lbl="contact-us:news" href="/news/">News</a></li> 
+        <li><a data-lbl="contact-us:blogs" href="https://blogs.oracle.com/">Blogs</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="u10w4"> 
+      <hr> 
+     </div> 
+     <div class="u10w5 u10w10" data-trackas="footer"> 
+      <ul class="u10-cr"> 
+       <li class="u10mtool" id="u10cmenu"> <a data-lbl="country-region" class="u10ticon u10regn" href="/universal-menu/#u10countrymenu">Country/Region</a> </li> 
+      </ul> 
+      <ul class="u10-links"> 
+       <li><a data-lbl="copyright" href="/legal/copyright.html">© 2022 Oracle</a></li> 
+       <li><a data-lbl="site-map" href="/sitemap.html">Site Map</a></li> 
+       <li><a data-lbl="privacy" href="/legal/privacy/">Privacy</a><span>/</span><a data-lbl="do-not-sell-my-info" href="/legal/privacy/privacy-choices.html">Do Not Sell My Info</a></li> 
+       <li>
+        <div id="teconsent"></div></li> 
+       <li><a data-lbl="ad-choices" href="/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices">Ad Choices</a></li> 
+       <li><a data-lbl="careers" href="/corporate/careers/">Careers</a></li> 
+      </ul> 
+      <ul class="scl-icons"> 
+       <li class="scl-facebook"><a data-lbl="scl-icon:facebook" href="https://www.facebook.com/Oracle/" target="_blank" title="Oracle on Facebook">Facebook</a></li> 
+       <li class="scl-twitter"><a data-lbl="scl-icon:twitter" href="https://twitter.com/oracle" target="_blank" title="Follow Oracle on Twitter">Twitter</a></li> 
+       <li class="scl-linkedin"><a data-lbl="scl-icon:linkedin" href="https://www.linkedin.com/company/oracle/" target="_blank" title="Oracle on LinkedIn">LinkedIn</a></li> 
+       <li class="scl-youtube"><a data-lbl="scl-icon:you-tube" href="https://www.youtube.com/oracle/" target="_blank" title="Watch Oracle on YouTube">YouTube</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> <!-- /U10v0 --> <!-- END: oWidget_C/_Raw-Text/Display --> 
+  </div> <!-- Container/Display Start --> <!-- BEGIN: oWidget_C/_Raw-Text/Display --> <!-- Start - End Body Admin Container --> <!-- Start SiteCatalyst code --> 
+  <script type="text/javascript" src="https://www.oracleimg.com/us/assets/metrics/ora_ocom.js"></script> <!-- End SiteCatalyst code --> <!-- End - End Body Admin Container --> <!-- END: oWidget_C/_Raw-Text/Display --> <!-- Container/Display end --> <!-- end : ocom/common/global/components/framework/layoutAssetEndBodyInfo --> 
+  <noscript>
+   <img src="https://www.oracle.com/akam/11/pixel_2ca648e2?a=dD1lMTg1M2ZlZWE0YWYzMmZhNjU4NDdhZmI4NGE5ZGEwN2NhMDE2MGZlJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;">
+  </noscript> <!-- end : Framework/Generic --> 
+ </body>
+</html>
