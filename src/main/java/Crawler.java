@@ -1,34 +1,46 @@
+package main.java;
+
 import lombok.SneakyThrows;
-import org.apache.commons.io.IOUtils;
+import main.java.utils.FileUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.FileInputStream;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
-import java.util.List;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.file.StandardOpenOption;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
+
+import static main.java.utils.Constants.*;
 
 public class Crawler {
 
     private static final AtomicInteger i = new AtomicInteger(1);
     private static final CopyOnWriteArrayList<String> DOWNLOADED_PAGES = new CopyOnWriteArrayList<>();
-    private static final String INPUT_FILE = "links.txt";
-    private static final String OUTPUT_FILE = "index.txt";
-    private static final String FILE_EXTENSION = ".txt";
-    private static final String INPUT_DIRECTORY = "input\\";
-    private static final String OUTPUT_DIRECTORY = "downloaded\\";
+    private static final String URL;
+    private static final String PAGE_PATTERN;
 
-    public static void main(String[] args) {
-        String url = readFromFile();
-        downloadPages(url);
+    static {
+        try {
+            URL = FileUtils.readFromFile(INPUT_DIRECTORY + INPUT_FILE);
+            PAGE_PATTERN = new URL(URL).getHost();
+        } catch (MalformedURLException e) {
+            throw new IllegalStateException(e);
+        }
+    }
+
+    @SneakyThrows
+    public static void downloadPages() {
+        FileUtils.clearFiles();
+
+        downloadPages(URL);
     }
 
     @SneakyThrows
     private static void downloadPages(final String url) {
+        System.out.printf("Start download %s page %s%n", i.get(), url);
         Document doc = Jsoup.connect(url)
                 .get();
 
@@ -40,7 +52,7 @@ public class Crawler {
         Elements links = doc.select("a[href]");
         for (Element link : links) {
             String linkUrl = link.attr("abs:href");
-            if (i.get() <= 100 && !DOWNLOADED_PAGES.contains(linkUrl)) {
+            if (i.get() <= DOCUMENTS_QUANTITY && !DOWNLOADED_PAGES.contains(linkUrl) && linkUrl.contains(PAGE_PATTERN)) {
                 try {
                     downloadPages(linkUrl);
                 } catch (Exception e) {
@@ -53,25 +65,12 @@ public class Crawler {
     private static void writeLinkToFile(String count, String url) {
         String str = count + ") " + url + "\n";
 
-        writeToFile(OUTPUT_DIRECTORY + OUTPUT_FILE, str, StandardOpenOption.APPEND);
+        FileUtils.writeToFile(OUTPUT_DIRECTORY + OUTPUT_FILE, str, StandardOpenOption.APPEND);
     }
 
     private static void writePageToFile(Document doc, String filename) {
         String page = doc.toString();
 
-        writeToFile(OUTPUT_DIRECTORY + filename + FILE_EXTENSION, page, StandardOpenOption.CREATE);
-    }
-
-    @SneakyThrows
-    private static void writeToFile(String fileName, String str, OpenOption openOption) {
-        Path file = Paths.get(fileName);
-        Files.write(file, List.of(str), StandardCharsets.UTF_8, openOption);
-    }
-
-    @SneakyThrows
-    private static String readFromFile() {
-        FileInputStream fis = new FileInputStream(INPUT_DIRECTORY + INPUT_FILE);
-
-        return IOUtils.toString(fis, StandardCharsets.UTF_8);
+        FileUtils.writeToFile(OUTPUT_DIRECTORY + filename + FILE_EXTENSION, page, StandardOpenOption.CREATE);
     }
 }

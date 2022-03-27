@@ -56,145 +56,145 @@
 
 29) https://jsoup.org/apidocs/org/jsoup/helper/package-tree.html#skip.navbar.top
 
-30) https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html
+30) https://jsoup.org/apidocs/org/jsoup/helper/ChangeNotifyingArrayList.html
 
-31) https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#skip-navbar_top
+31) https://jsoup.org/apidocs/org/jsoup/helper/ChangeNotifyingArrayList.html#skip.navbar.top
 
-32) https://docs.oracle.com/javase/7/docs/api/overview-summary.html
+32) https://jsoup.org/apidocs/org/jsoup/helper/class-use/ChangeNotifyingArrayList.html
 
-33) https://docs.oracle.com/javase/7/docs/api/overview-summary.html#skip-navbar_top
+33) https://jsoup.org/apidocs/org/jsoup/helper/class-use/ChangeNotifyingArrayList.html#skip.navbar.top
 
-34) https://docs.oracle.com/javase/7/docs/api/overview-tree.html
+34) https://jsoup.org/apidocs/org/jsoup/helper/class-use/ChangeNotifyingArrayList.html#skip.navbar.bottom
 
-35) https://docs.oracle.com/javase/7/docs/api/overview-tree.html#skip-navbar_top
+35) https://jsoup.org/apidocs/serialized-form.html#org.jsoup.helper.ChangeNotifyingArrayList
 
-36) https://docs.oracle.com/javase/7/docs/api/deprecated-list.html
+36) https://jsoup.org/apidocs/serialized-form.html#skip.navbar.top
 
-37) https://docs.oracle.com/javase/7/docs/api/deprecated-list.html#skip-navbar_top
+37) https://jsoup.org/apidocs/org/jsoup/HttpStatusException.html
 
-38) https://docs.oracle.com/javase/7/docs/api/index-files/index-1.html
+38) https://jsoup.org/apidocs/org/jsoup/HttpStatusException.html#skip.navbar.top
 
-39) https://docs.oracle.com/javase/7/docs/api/index-files/index-1.html#skip-navbar_top
+39) https://jsoup.org/apidocs/org/jsoup/package-summary.html
 
-40) https://docs.oracle.com/javase/7/docs/api/help-doc.html
+40) https://jsoup.org/apidocs/org/jsoup/package-summary.html#skip.navbar.top
 
-41) https://docs.oracle.com/javase/7/docs/api/help-doc.html#skip-navbar_top
+41) https://jsoup.org/apidocs/org/jsoup/package-use.html
 
-42) https://docs.oracle.com/javase/7/docs/api/index.html?help-doc.html
+42) https://jsoup.org/apidocs/org/jsoup/package-use.html#skip.navbar.top
 
-43) https://docs.oracle.com/javase/7/docs/api/allclasses-noframe.html
+43) https://jsoup.org/apidocs/org/jsoup/package-tree.html
 
-44) https://docs.oracle.com/javase/7/docs/api/javax/swing/AbstractAction.html
+44) https://jsoup.org/apidocs/org/jsoup/package-tree.html#skip.navbar.top
 
-45) https://docs.oracle.com/javase/7/docs/api/javax/swing/AbstractAction.html#skip-navbar_top
+45) https://jsoup.org/apidocs/org/jsoup/Jsoup.html
 
-46) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html
+46) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#skip.navbar.top
 
-47) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html#skip-navbar_top
+47) https://jsoup.org/apidocs/org/jsoup/class-use/Jsoup.html
 
-48) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-use.html
+48) https://jsoup.org/apidocs/org/jsoup/class-use/Jsoup.html#skip.navbar.top
 
-49) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-use.html#skip-navbar_top
+49) https://jsoup.org/apidocs/org/jsoup/class-use/Jsoup.html#skip.navbar.bottom
 
-50) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-tree.html
+50) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#clean(java.lang.String,java.lang.String,org.jsoup.safety.Safelist)
 
-51) https://docs.oracle.com/javase/7/docs/api/javax/swing/package-tree.html#skip-navbar_top
+51) https://jsoup.org/apidocs/org/jsoup/safety/Safelist.html
 
-52) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-tree.html
+52) https://jsoup.org/apidocs/org/jsoup/safety/Safelist.html#skip.navbar.top
 
-53) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-tree.html#skip-navbar_top
+53) https://jsoup.org/apidocs/org/jsoup/safety/package-summary.html
 
-54) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-summary.html
+54) https://jsoup.org/apidocs/org/jsoup/safety/package-summary.html#skip.navbar.top
 
-55) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-summary.html#skip-navbar_top
+55) https://jsoup.org/apidocs/org/jsoup/safety/package-use.html
 
-56) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html
+56) https://jsoup.org/apidocs/org/jsoup/safety/package-use.html#skip.navbar.top
 
-57) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html#skip-navbar_top
+57) https://jsoup.org/apidocs/org/jsoup/safety/package-tree.html
 
-58) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/rowset/spi/package-use.html
+58) https://jsoup.org/apidocs/org/jsoup/safety/package-tree.html#skip.navbar.top
 
-59) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html#javax.sql.rowset
+59) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html
 
-60) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/spi/package-use.html#javax.sql.rowset.spi
+60) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html#skip.navbar.top
 
-61) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-summary.html
+61) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Cleaner.html
 
-62) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-summary.html#skip-navbar_top
+62) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Cleaner.html#skip.navbar.top
 
-63) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-use.html
+63) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Cleaner.html#skip.navbar.bottom
 
-64) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-use.html#skip-navbar_top
+64) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html#%3Cinit%3E(org.jsoup.safety.Safelist)
 
-65) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-tree.html
+65) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html#%3Cinit%3E(org.jsoup.safety.Whitelist)
 
-66) https://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/package-tree.html#skip-navbar_top
+66) https://jsoup.org/apidocs/org/jsoup/safety/Whitelist.html
 
-67) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-tree.html
+67) https://jsoup.org/apidocs/org/jsoup/safety/Whitelist.html#skip.navbar.top
 
-68) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-tree.html#skip-navbar_top
+68) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html
 
-69) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-summary.html
+69) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html#skip.navbar.top
 
-70) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-summary.html#skip-navbar_top
+70) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html#org.jsoup
 
-71) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html
+71) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html#org.jsoup.safety
 
-72) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#skip-navbar_top
+72) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#clean(java.lang.String,java.lang.String,org.jsoup.safety.Whitelist)
 
-73) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/package-use.html
+73) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#clean(java.lang.String,java.lang.String,org.jsoup.safety.Safelist,org.jsoup.nodes.Document.OutputSettings)
 
-74) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#javax.sql
+74) https://jsoup.org/apidocs/org/jsoup/nodes/Document.OutputSettings.html
 
-75) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#javax.sql.rowset
+75) https://jsoup.org/apidocs/org/jsoup/nodes/Document.OutputSettings.html#skip.navbar.top
 
-76) https://docs.oracle.com/javase/7/docs/api/javax/sql/package-use.html#javax.sql.rowset.spi
+76) https://jsoup.org/apidocs/org/jsoup/nodes/package-summary.html
 
-77) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/CommonDataSource.html#javax.sql
+77) https://jsoup.org/apidocs/org/jsoup/nodes/package-summary.html#skip.navbar.top
 
-78) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/CommonDataSource.html#skip-navbar_top
+78) https://jsoup.org/apidocs/org/jsoup/nodes/package-use.html
 
-79) https://docs.oracle.com/javase/7/docs/api/javax/sql/CommonDataSource.html
+79) https://jsoup.org/apidocs/org/jsoup/nodes/package-use.html#skip.navbar.top
 
-80) https://docs.oracle.com/javase/7/docs/api/javax/sql/CommonDataSource.html#skip-navbar_top
+80) https://jsoup.org/apidocs/org/jsoup/nodes/package-tree.html
 
-81) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/CommonDataSource.html
+81) https://jsoup.org/apidocs/org/jsoup/nodes/package-tree.html#skip.navbar.top
 
-82) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/class-use/CommonDataSource.html
+82) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html
 
-83) https://docs.oracle.com/javase/7/docs/api/javax/sql/ConnectionPoolDataSource.html
+83) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#skip.navbar.top
 
-84) https://docs.oracle.com/javase/7/docs/api/javax/sql/ConnectionPoolDataSource.html#skip-navbar_top
+84) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html
 
-85) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/ConnectionPoolDataSource.html
+85) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html#skip.navbar.top
 
-86) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/ConnectionPoolDataSource.html#skip-navbar_top
+86) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html#org.jsoup.nodes
 
-87) https://docs.oracle.com/javase/7/docs/api/index.html?javax/sql/class-use/ConnectionPoolDataSource.html
+87) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html#org.jsoup.safety
 
-88) https://docs.oracle.com/javase/7/docs/api/javax/sql/class-use/ConnectionPoolDataSource.html#skip-navbar_bottom
+88) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#clone()
 
-89) http://docs.oracle.com/javase/7/docs/index.html
+89) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#%3Cinit%3E(java.lang.String,java.lang.String)
 
-90) https://docs.oracle.com/javase/7/docs/index.html#skip2content
+90) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#%3Cinit%3E(java.lang.String,java.lang.String,org.jsoup.nodes.Attributes)
 
-91) http://www.oracle.com
+91) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html
 
-92) https://www.oracle.com/corporate/accessibility/
+92) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#skip.navbar.top
 
-93) https://www.oracle.com/corporate/accessibility/#maincontent
+93) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attributes.html
 
-94) https://www.oracle.com/
+94) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attributes.html#skip.navbar.top
 
-95) https://www.oracle.com/index.html#maincontent
+95) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attributes.html#org.jsoup.nodes
 
-96) https://www.oracle.com/universal-menu/
+96) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#add(java.lang.String,java.lang.String)
 
-97) https://www.oracle.com/universal-menu/#back
+97) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#dataPrefix
 
-98) https://www.oracle.com/universal-menu/#search
+98) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#%3Cinit%3E()
 
-99) https://www.oracle.com/universal-menu/#
+99) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#addAll(org.jsoup.nodes.Attributes)
 
-100) https://www.oracle.com/webapps/redirect/signon?nexturl=
+100) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#asList()
 
