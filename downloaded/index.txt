@@ -1,200 +1,100 @@
 1) https://jsoup.org/cookbook/extracting-data/working-with-urls
-
 2) https://jsoup.org/
-
 3) https://jsoup.org/news/
-
 4) https://jsoup.org/bugs
-
 5) https://jsoup.org/discussion
-
 6) https://jsoup.org/download
-
 7) https://jsoup.org/apidocs/
-
 8) https://jsoup.org/apidocs/#skip.navbar.top
-
 9) https://jsoup.org/apidocs/overview-tree.html
-
 10) https://jsoup.org/apidocs/overview-tree.html#skip.navbar.top
-
 11) https://jsoup.org/apidocs/index.html
-
 12) https://jsoup.org/apidocs/index.html#skip.navbar.top
-
 13) https://jsoup.org/apidocs/deprecated-list.html
-
 14) https://jsoup.org/apidocs/deprecated-list.html#skip.navbar.top
-
 15) https://jsoup.org/apidocs/index-all.html
-
 16) https://jsoup.org/apidocs/index-all.html#skip.navbar.top
-
 17) https://jsoup.org/apidocs/help-doc.html
-
 18) https://jsoup.org/apidocs/help-doc.html#skip.navbar.top
-
 19) https://jsoup.org/apidocs/constant-values.html
-
 20) https://jsoup.org/apidocs/constant-values.html#skip.navbar.top
-
 21) https://jsoup.org/apidocs/constant-values.html#org.jsoup
-
 22) https://jsoup.org/apidocs/org/jsoup/helper/HttpConnection.html
-
 23) https://jsoup.org/apidocs/org/jsoup/helper/HttpConnection.html#skip.navbar.top
-
 24) https://jsoup.org/apidocs/org/jsoup/helper/package-summary.html
-
 25) https://jsoup.org/apidocs/org/jsoup/helper/package-summary.html#skip.navbar.top
-
 26) https://jsoup.org/apidocs/org/jsoup/helper/package-use.html
-
 27) https://jsoup.org/apidocs/org/jsoup/helper/package-use.html#skip.navbar.top
-
 28) https://jsoup.org/apidocs/org/jsoup/helper/package-tree.html
-
 29) https://jsoup.org/apidocs/org/jsoup/helper/package-tree.html#skip.navbar.top
-
 30) https://jsoup.org/apidocs/org/jsoup/helper/ChangeNotifyingArrayList.html
-
 31) https://jsoup.org/apidocs/org/jsoup/helper/ChangeNotifyingArrayList.html#skip.navbar.top
-
 32) https://jsoup.org/apidocs/org/jsoup/helper/class-use/ChangeNotifyingArrayList.html
-
 33) https://jsoup.org/apidocs/org/jsoup/helper/class-use/ChangeNotifyingArrayList.html#skip.navbar.top
-
 34) https://jsoup.org/apidocs/org/jsoup/helper/class-use/ChangeNotifyingArrayList.html#skip.navbar.bottom
-
 35) https://jsoup.org/apidocs/serialized-form.html#org.jsoup.helper.ChangeNotifyingArrayList
-
 36) https://jsoup.org/apidocs/serialized-form.html#skip.navbar.top
-
 37) https://jsoup.org/apidocs/org/jsoup/HttpStatusException.html
-
 38) https://jsoup.org/apidocs/org/jsoup/HttpStatusException.html#skip.navbar.top
-
 39) https://jsoup.org/apidocs/org/jsoup/package-summary.html
-
 40) https://jsoup.org/apidocs/org/jsoup/package-summary.html#skip.navbar.top
-
 41) https://jsoup.org/apidocs/org/jsoup/package-use.html
-
 42) https://jsoup.org/apidocs/org/jsoup/package-use.html#skip.navbar.top
-
 43) https://jsoup.org/apidocs/org/jsoup/package-tree.html
-
 44) https://jsoup.org/apidocs/org/jsoup/package-tree.html#skip.navbar.top
-
 45) https://jsoup.org/apidocs/org/jsoup/Jsoup.html
-
 46) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#skip.navbar.top
-
 47) https://jsoup.org/apidocs/org/jsoup/class-use/Jsoup.html
-
 48) https://jsoup.org/apidocs/org/jsoup/class-use/Jsoup.html#skip.navbar.top
-
 49) https://jsoup.org/apidocs/org/jsoup/class-use/Jsoup.html#skip.navbar.bottom
-
 50) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#clean(java.lang.String,java.lang.String,org.jsoup.safety.Safelist)
-
 51) https://jsoup.org/apidocs/org/jsoup/safety/Safelist.html
-
 52) https://jsoup.org/apidocs/org/jsoup/safety/Safelist.html#skip.navbar.top
-
 53) https://jsoup.org/apidocs/org/jsoup/safety/package-summary.html
-
 54) https://jsoup.org/apidocs/org/jsoup/safety/package-summary.html#skip.navbar.top
-
 55) https://jsoup.org/apidocs/org/jsoup/safety/package-use.html
-
 56) https://jsoup.org/apidocs/org/jsoup/safety/package-use.html#skip.navbar.top
-
 57) https://jsoup.org/apidocs/org/jsoup/safety/package-tree.html
-
 58) https://jsoup.org/apidocs/org/jsoup/safety/package-tree.html#skip.navbar.top
-
 59) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html
-
 60) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html#skip.navbar.top
-
 61) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Cleaner.html
-
 62) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Cleaner.html#skip.navbar.top
-
 63) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Cleaner.html#skip.navbar.bottom
-
 64) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html#%3Cinit%3E(org.jsoup.safety.Safelist)
-
 65) https://jsoup.org/apidocs/org/jsoup/safety/Cleaner.html#%3Cinit%3E(org.jsoup.safety.Whitelist)
-
 66) https://jsoup.org/apidocs/org/jsoup/safety/Whitelist.html
-
 67) https://jsoup.org/apidocs/org/jsoup/safety/Whitelist.html#skip.navbar.top
-
 68) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html
-
 69) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html#skip.navbar.top
-
 70) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html#org.jsoup
-
 71) https://jsoup.org/apidocs/org/jsoup/safety/class-use/Whitelist.html#org.jsoup.safety
-
 72) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#clean(java.lang.String,java.lang.String,org.jsoup.safety.Whitelist)
-
 73) https://jsoup.org/apidocs/org/jsoup/Jsoup.html#clean(java.lang.String,java.lang.String,org.jsoup.safety.Safelist,org.jsoup.nodes.Document.OutputSettings)
-
 74) https://jsoup.org/apidocs/org/jsoup/nodes/Document.OutputSettings.html
-
 75) https://jsoup.org/apidocs/org/jsoup/nodes/Document.OutputSettings.html#skip.navbar.top
-
 76) https://jsoup.org/apidocs/org/jsoup/nodes/package-summary.html
-
 77) https://jsoup.org/apidocs/org/jsoup/nodes/package-summary.html#skip.navbar.top
-
 78) https://jsoup.org/apidocs/org/jsoup/nodes/package-use.html
-
 79) https://jsoup.org/apidocs/org/jsoup/nodes/package-use.html#skip.navbar.top
-
 80) https://jsoup.org/apidocs/org/jsoup/nodes/package-tree.html
-
 81) https://jsoup.org/apidocs/org/jsoup/nodes/package-tree.html#skip.navbar.top
-
 82) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html
-
 83) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#skip.navbar.top
-
 84) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html
-
 85) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html#skip.navbar.top
-
 86) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html#org.jsoup.nodes
-
 87) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attribute.html#org.jsoup.safety
-
 88) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#clone()
-
 89) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#%3Cinit%3E(java.lang.String,java.lang.String)
-
 90) https://jsoup.org/apidocs/org/jsoup/nodes/Attribute.html#%3Cinit%3E(java.lang.String,java.lang.String,org.jsoup.nodes.Attributes)
-
 91) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html
-
 92) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#skip.navbar.top
-
 93) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attributes.html
-
 94) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attributes.html#skip.navbar.top
-
 95) https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Attributes.html#org.jsoup.nodes
-
 96) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#add(java.lang.String,java.lang.String)
-
 97) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#dataPrefix
-
 98) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#%3Cinit%3E()
-
 99) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#addAll(org.jsoup.nodes.Attributes)
-
 100) https://jsoup.org/apidocs/org/jsoup/nodes/Attributes.html#asList()
-

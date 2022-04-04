@@ -6,6 +6,7 @@ public interface Constants {
     String OUTPUT_FILE = "index.txt";
     String TOKENS_FILE = "tokens.txt";
     String LEMMAS_FILE = "lemmas.txt";
+    String INDEXES_FILE = "indexes.txt";
     String FILE_EXTENSION = ".txt";
     String INPUT_DIRECTORY = "input\\";
     String OUTPUT_DIRECTORY = "downloaded\\";

@@ -37,7 +37,8 @@ public class FileUtils {
         List<String> files = List.of(
                 OUTPUT_DIRECTORY + OUTPUT_FILE,
                 WORDS_DIRECTORY + TOKENS_FILE,
-                WORDS_DIRECTORY + LEMMAS_FILE
+                WORDS_DIRECTORY + LEMMAS_FILE,
+                WORDS_DIRECTORY + INDEXES_FILE
         );
 
         files.forEach(fileName -> {
