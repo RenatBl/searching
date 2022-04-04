@@ -6,7 +6,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import lombok.SneakyThrows;
 import main.java.utils.FileUtils;
-import org.jsoup.Jsoup;
+import main.java.utils.TextUtils;
 
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
@@ -18,6 +18,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import static main.java.utils.Constants.*;
 
+/**
+ * Данный класс выполняет токенизация и лемматизацию выгруженных HTML страниц
+ */
 public class PagesTokenizer {
 
     private static final List<String> TOKENS = new CopyOnWriteArrayList<>();
@@ -30,13 +33,12 @@ public class PagesTokenizer {
         props.put("annotators", "tokenize, ssplit, pos, lemma");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-        int count = DOCUMENTS_QUANTITY;
-        for (int i = 1; i <= count; i++) {
+        for (int i = 1; i <= DOCUMENTS_QUANTITY; i++) {
             System.out.printf("Start tokenize and lemmatize file: %s.txt%n", i);
 
             String text = FileUtils.readFromFile(OUTPUT_DIRECTORY + i + FILE_EXTENSION);
-            text = removeHtmlFromText(text);
-            text = removeSymbolsFromText(text);
+            text = TextUtils.removeHtmlFromText(text);
+            text = TextUtils.removeSymbolsFromText(text);
 
             Annotation document = new Annotation(text);
             pipeline.annotate(document);
@@ -61,12 +63,18 @@ public class PagesTokenizer {
         writeLemmasToFile();
     }
 
+    /**
+     * Метод добавления токена в список токенов
+     */
     private static void putToken(String word) {
         if (!TOKENS.contains(word)) {
             TOKENS.add(word);
         }
     }
 
+    /**
+     * Метод добавления леммы в словарь лемм
+     */
     private static void putLemma(String lemma, String word) {
         if (LEMMAS.containsKey(lemma)) {
             List<String> words = LEMMAS.get(lemma);
@@ -79,14 +87,9 @@ public class PagesTokenizer {
         }
     }
 
-    private static String removeHtmlFromText(String text) {
-        return Jsoup.parse(text).text();
-    }
-
-    private static String removeSymbolsFromText(String text) {
-        return text.replaceAll("[^A-Za-z]", " ");
-    }
-
+    /**
+     * Метод удаления невалидных токенов и лемм
+     */
     private static void removeInvalidTokensAndLemmas() {
         TOKENS.forEach(token -> {
             if (token.length() <= 1) {
@@ -95,18 +98,24 @@ public class PagesTokenizer {
         });
 
         LEMMAS.forEach((key, value) -> {
-            if (key.length() <= 1) {
+            if (key.length() <= 1 || !value.contains(key)) {
                 LEMMAS.remove(key);
             }
         });
     }
 
+    /**
+     * Метод записи токенов в файл
+     */
     private static void writeTokensToFile() {
         for (String token : TOKENS) {
             FileUtils.writeToFile(WORDS_DIRECTORY + TOKENS_FILE, token, StandardOpenOption.APPEND);
         }
     }
 
+    /**
+     * Метод записи лемм в файл
+     */
     private static void writeLemmasToFile() {
         for (Map.Entry<String, List<String>> entry : LEMMAS.entrySet()) {
             String lemma = entry.getKey() + " " + String.join(" ", entry.getValue());

@@ -15,6 +15,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import static main.java.utils.Constants.*;
 
+/**
+ * Данный класс представляет из себя поискового робота для перебора страниц и их выгрузки в файлы
+ */
 public class Crawler {
 
     private static final AtomicInteger i = new AtomicInteger(1);
@@ -38,6 +41,11 @@ public class Crawler {
         downloadPages(URL);
     }
 
+    /**
+     * Метод рекурсивной выгрузки страниц
+     * На переданной странице парсятся все ссылки,
+     * по которым происходит дальнейшая выгрузка страниц
+     */
     @SneakyThrows
     private static void downloadPages(final String url) {
         System.out.printf("Start download %s page %s%n", i.get(), url);
@@ -62,12 +70,18 @@ public class Crawler {
         }
     }
 
+    /**
+     * Метод записи ссылки на страницу в файл
+     */
     private static void writeLinkToFile(String count, String url) {
-        String str = count + ") " + url + "\n";
+        String str = count + ") " + url;
 
         FileUtils.writeToFile(OUTPUT_DIRECTORY + OUTPUT_FILE, str, StandardOpenOption.APPEND);
     }
 
+    /**
+     * Метод записи HTML страницы в файл
+     */
     private static void writePageToFile(Document doc, String filename) {
         String page = doc.toString();
 
