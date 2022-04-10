@@ -9,6 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 import static main.java.utils.Constants.*;
+import static main.java.utils.NlpUtils.getInvertedLemmas;
 
 /**
  * Данный класс является индексатором выгруженных страниц по полученным леммам
@@ -16,15 +17,15 @@ import static main.java.utils.Constants.*;
 public class Indexer {
 
     private static final Map<String, List<Integer>> INDEXES = new ConcurrentHashMap<>();
-    private static final Map<String, String> INVERTED_LEMMAS = new ConcurrentHashMap<>();
     private static final Map<Integer, String> LINKS = new ConcurrentHashMap<>();
 
     /**
      * Метод постоения инвертированных индексов
      */
     public static void index() {
+        System.out.println("\n\n======================== 3) Indexing ========================\n\n");
         Map<String, List<String>> lemmasMap = getLemmasFromFile();
-        invertLemmas(lemmasMap);
+        Map<String, String> invertedLemmas = getInvertedLemmas(lemmasMap);
 
         for (int i = 1; i <= DOCUMENTS_QUANTITY; i++) {
             System.out.printf("Start index file: %s.txt%n", i);
@@ -34,8 +35,8 @@ public class Indexer {
             text = TextUtils.removeSymbolsFromText(text);
             List<String> words = TextUtils.getWordsFromText(text);
             for (String word : words) {
-                if (INVERTED_LEMMAS.containsKey(word)) {
-                    addIndex(INVERTED_LEMMAS.get(word), i);
+                if (invertedLemmas.containsKey(word)) {
+                    addIndex(invertedLemmas.get(word), i);
                 }
             }
         }
@@ -47,33 +48,38 @@ public class Indexer {
     public static void booleanSearch() {
         System.out.println();
         Scanner in = new Scanner(System.in);
-        while (true) {
-            System.out.println("Enter search query by format: word1 <operator> word2 <operator> ...\n" +
-                    "Where <operator> is & or |\n(enter 0 to exit)");
-            String query = in.nextLine();
-            if (query.equals("0")) {
-                return;
-            }
-            String[] words = query.trim().split(" ");
-            List<Integer> pageIndexes = INDEXES.get(words[0]);
-            List<Integer> searchQueryPageIndexes = new ArrayList<>();
-            for (int i = 1; i < words.length; i += 2) {
-                String operator = words[i];
-                String word = words[i + 1];
-                if (INDEXES.containsKey(word)) {
-                    searchQueryPageIndexes = INDEXES.get(word);
+        try {
+            while (true) {
+                System.out.println("Enter search query by format: word1 <operator> word2 <operator> ...\n" +
+                        "Where <operator> is & or |\n(enter 0 to exit)");
+                String query = in.nextLine();
+                if (query.equals("0")) {
+                    return;
                 }
-                if (operator.equals("&")) {
-                    pageIndexes = getMatchingElements(pageIndexes, searchQueryPageIndexes);
+                String[] words = query.trim().split(" ");
+                List<Integer> pageIndexes = INDEXES.get(words[0]);
+                List<Integer> searchQueryPageIndexes = new ArrayList<>();
+                for (int i = 1; i < words.length; i += 2) {
+                    String operator = words[i];
+                    String word = words[i + 1];
+                    if (INDEXES.containsKey(word)) {
+                        searchQueryPageIndexes = INDEXES.get(word);
+                    }
+                    if (operator.equals("&")) {
+                        pageIndexes = getMatchingElements(pageIndexes, searchQueryPageIndexes);
+                    }
+                    if (operator.equals("|")) {
+                        pageIndexes = addAllElements(pageIndexes, searchQueryPageIndexes);
+                    }
                 }
-                if (operator.equals("|")) {
-                    pageIndexes = addAllElements(pageIndexes, searchQueryPageIndexes);
-                }
-            }
 
-            System.out.println("Result:");
-            pageIndexes
-                    .forEach(index -> System.out.println(LINKS.get(index)));
+                System.out.println("Result:");
+                pageIndexes
+                        .forEach(index -> System.out.println(LINKS.get(index)));
+            }
+        } catch (Exception e) {
+            System.out.println("Something went wrong, please try again");
+            booleanSearch();
         }
     }
 
@@ -115,7 +121,7 @@ public class Indexer {
     /**
      * Метод получения лемм из файла lemmas.txt
      */
-    private static Map<String, List<String>> getLemmasFromFile() {
+    public static Map<String, List<String>> getLemmasFromFile() {
         Map<String, List<String>> lemmasMap = new HashMap<>();
         String text = FileUtils.readFromFile(WORDS_DIRECTORY + LEMMAS_FILE);
         String[] lines = text.split("\n");
@@ -126,17 +132,6 @@ public class Indexer {
         }
 
         return lemmasMap;
-    }
-
-    /**
-     * Метод получения инвертированного словаря из пар токен - лемма
-     */
-    private static void invertLemmas(Map<String, List<String>> lemmasMap) {
-        lemmasMap.forEach((key, value) -> {
-            for (String s : value) {
-                INVERTED_LEMMAS.put(s, key);
-            }
-        });
     }
 
     /**

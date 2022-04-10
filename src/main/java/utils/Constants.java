@@ -11,6 +11,8 @@ public interface Constants {
     String INPUT_DIRECTORY = "input\\";
     String OUTPUT_DIRECTORY = "downloaded\\";
     String WORDS_DIRECTORY = "words\\";
+    String TF_IDF_TOKENS_DIRECTORY = "tfidf\\tokens\\";
+    String TF_IDF_LEMMAS_DIRECTORY = "tfidf\\lemmas\\";
 
     Integer DOCUMENTS_QUANTITY = 100;
 }

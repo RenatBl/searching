@@ -36,6 +36,7 @@ public class Crawler {
 
     @SneakyThrows
     public static void downloadPages() {
+        System.out.println("\n\n======================== 1) Page downloading ========================\n\n");
         FileUtils.clearFiles();
 
         downloadPages(URL);
