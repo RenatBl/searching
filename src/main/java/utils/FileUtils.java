@@ -33,6 +33,13 @@ public class FileUtils {
         return IOUtils.toString(fis, StandardCharsets.UTF_8);
     }
 
+    @SneakyThrows
+    public static List<String> readLinesFromFile(String filePath) {
+        FileInputStream fis = new FileInputStream(filePath);
+
+        return IOUtils.readLines(fis, StandardCharsets.UTF_8);
+    }
+
     public static void clearFiles() {
         List<String> files = List.of(
                 OUTPUT_DIRECTORY + OUTPUT_FILE,
