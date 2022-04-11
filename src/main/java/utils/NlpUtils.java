@@ -7,6 +7,7 @@ import edu.stanford.nlp.util.CoreMap;
 import lombok.experimental.UtilityClass;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @UtilityClass
 public class NlpUtils {
@@ -20,6 +21,9 @@ public class NlpUtils {
         PIPELINE = new StanfordCoreNLP(props);
     }
 
+    /**
+     * Метод инициализации словарей токенов и лемм
+     */
     public static void putTokensAndLemmas(String text, List<String> tokens, Map<String, List<String>> lemmas) {
         Annotation document = new Annotation(text);
         PIPELINE.annotate(document);
@@ -78,5 +82,20 @@ public class NlpUtils {
         });
 
         return invertedLemmas;
+    }
+
+    /**
+     * Метод лемматизации поискового запроса
+     */
+    public static List<String> lemmatizeSearchQuery(String text) {
+        Annotation annotation = new Annotation(text.toLowerCase(Locale.ROOT));
+        PIPELINE.annotate(annotation);
+
+        return annotation.get(CoreAnnotations.SentencesAnnotation.class).stream()
+                .map(sentence -> sentence.get(CoreAnnotations.TokensAnnotation.class))
+                .flatMap(List::stream)
+                .map(token -> token.get(CoreAnnotations.LemmaAnnotation.class))
+                .distinct()
+                .collect(Collectors.toList());
     }
 }

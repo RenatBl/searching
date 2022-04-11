@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 
 import static main.java.utils.Constants.*;
 import static main.java.utils.NlpUtils.getInvertedLemmas;
+import static main.java.utils.PageUtils.getPageResult;
 
 /**
  * Данный класс является индексатором выгруженных страниц по полученным леммам
@@ -17,7 +18,7 @@ import static main.java.utils.NlpUtils.getInvertedLemmas;
 public class Indexer {
 
     private static final Map<String, List<Integer>> INDEXES = new ConcurrentHashMap<>();
-    private static final Map<Integer, String> LINKS = new ConcurrentHashMap<>();
+    private static final Map<Integer, String> LINKS = getPageLinksFromFile();
 
     /**
      * Метод постоения инвертированных индексов
@@ -74,8 +75,10 @@ public class Indexer {
                 }
 
                 System.out.println("Result:");
-                pageIndexes
-                        .forEach(index -> System.out.println(LINKS.get(index)));
+                for (int i = 0; i < pageIndexes.size(); i++) {
+                    int index = pageIndexes.get(i);
+                    System.out.println(getPageResult(LINKS.get(index), i + 1));
+                }
             }
         } catch (Exception e) {
             System.out.println("Something went wrong, please try again");
@@ -109,13 +112,16 @@ public class Indexer {
     /**
      * Метод получения словаря мз пар имя файла - ссылка из файла index.txt
      */
-    private static void getPageLinksFromFile() {
+    public static Map<Integer, String> getPageLinksFromFile() {
+        Map<Integer, String> links = new HashMap<>();
         String text = FileUtils.readFromFile(OUTPUT_DIRECTORY + OUTPUT_FILE);
         String[] lines = text.trim().split("\n");
         for (String line : lines) {
             String[] words = line.trim().split("\\) ");
-            LINKS.put(Integer.parseInt(words[0]), words[1]);
+            links.put(Integer.parseInt(words[0]), words[1]);
         }
+
+        return links;
     }
 
     /**
